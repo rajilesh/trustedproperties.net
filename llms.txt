@@ -1,0 +1,35 @@
+# Trusted Properties
+
+> Bengaluru property information and enquiry website covering ten SOBHA apartment and plotted communities.
+
+This is not the official SOBHA website. All prices and completion dates are indicative information from the supplied project guide, not live quotations or verified inventory. Visuals are illustrative.
+
+## Main pages
+
+- [Home](https://trustedproperties.net/): Overview, imagery and enquiry form.
+- [All Bengaluru properties](https://trustedproperties.net/properties/): Compare every listed project.
+- [Property FAQs](https://trustedproperties.net/faqs/): Pricing, configurations, plots, timelines and enquiry information.
+- [Property films](https://trustedproperties.net/films/): Eight supplied reference videos.
+
+## Project guides
+
+- [SOBHA One World](https://trustedproperties.net/properties/sobha-one-world/): Greater Whitefield · Old Madras Road; 1, 2, 3 & 4 BHK; ₹1.10 Cr (Starting basic price).
+- [SOBHA Altair](https://trustedproperties.net/properties/sobha-altair/): Off Sarjapura Road · Beside Royal Pavilion; 3 & 4 BHK; ₹3.55 Cr (Starting basic price).
+- [SOBHA Neopolis](https://trustedproperties.net/properties/sobha-neopolis/): Silver Oaks Main Road · Off Panathur Road; 1, 3 & 4 BHK; ₹94 L (Starting basic price · 1 BHK).
+- [SOBHA Ayana](https://trustedproperties.net/properties/sobha-ayana/): Panathur Road · East Bengaluru; 3 BHK; ₹2.30 Cr (Starting basic price).
+- [SOBHA Infinia](https://trustedproperties.net/properties/sobha-infinia/): HSR Layout · Bengaluru; 3 & 4 BHK; ₹4.22 Cr (Starting guide price).
+- [SOBHA Sacred Grove](https://trustedproperties.net/properties/sobha-sacred-grove/): Chikka Tirupati · Bengaluru; Residential plots; ₹8,200 / sq ft (Approx. inclusive rate in guide).
+- [SOBHA Chartered Birdsong](https://trustedproperties.net/properties/sobha-chartered-birdsong/): Off Rajanakunte · Bengaluru; Residential plots; ₹8,443 / sq ft (Approx. inclusive rate in guide).
+- [SOBHA Insignia](https://trustedproperties.net/properties/sobha-insignia/): Off ORR · Behind Embassy Tech Village; 3.5 BHK; ₹3.73 Cr (Starting basic price).
+- [SOBHA Townpark](https://trustedproperties.net/properties/sobha-townpark/): Hosur Main Road · Opposite Ramee Guestline; 2, 3 & 4 BHK; ₹1.65 Cr (Starting basic price · 2 BHK).
+- [SOBHA Magnus](https://trustedproperties.net/properties/sobha-magnus/): Bannerghatta Road · Behind Meenakshi Temple; 2, 3 & 4 BHK; ₹3.29 Cr (Starting basic price · 3 BHK).
+
+## Source and text versions
+
+- [Source project guide](https://trustedproperties.net/project-guide.pdf): Supplied SOBHA reference; current details must be confirmed.
+- [Full text collection](https://trustedproperties.net/llms-full.txt): Project facts and FAQ answers in one file.
+- [Project data](https://trustedproperties.net/data/projects.json): Machine-readable facts and canonical links.
+- [Home in Markdown](https://trustedproperties.net/index.md): Text version of the overview.
+- [Privacy notice](https://trustedproperties.net/privacy/): Form data and contact consent.
+
+Project pages also have Markdown versions at their canonical directory URL followed by index.md. These text versions describe the same facts available to visitors.
