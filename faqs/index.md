@@ -1,8 +1,8 @@
 # Property FAQs
 
-## Which SOBHA projects can I explore in Bengaluru?
+## Which developers and projects can I explore?
 
-The collection includes SOBHA One World, Altair, Neopolis, Ayana, Infinia, Sacred Grove, Chartered Birdsong, Insignia, Townpark and Magnus. Each project page lists its location, configurations, size range, indicative pricing and completion information from the supplied project guide.
+Explore SOBHA homes and plots, Puravankara’s BluBelle, Meraki and Atmosphere, Provident’s Botanico, Ecopolitan, Deansgate and Sunworth City, and DNR Arista by DNR Group. Compare locations, configurations, guide pricing and timelines on the property listing page.
 
 ## What apartment configurations are listed?
 
@@ -24,9 +24,9 @@ SOBHA Insignia is marked ready to move in the supplied guide. Other projects hav
 
 Use the enquiry form with your name, Indian mobile number, preferred configuration and budget, and authorise contact about your enquiry. Email is optional. A project’s enquiry link preselects a supported configuration. Mention your chosen project when the representative contacts you.
 
-## Is Trusted Properties the official SOBHA website?
+## Is Trusted Properties an official developer website?
 
-No. This is the Trusted Properties website. Project information is drawn from a supplied SOBHA project guide. Verify current specifications, approvals, RERA details, availability and commercial terms with the developer.
+No. Trusted Properties is an independent platform featuring multiple developers. Information is drawn from supplied SOBHA, Puravankara and Provident guides and the official DNR Arista website. Verify current specifications, approvals, RERA details, availability and commercial terms with the developer.
 
 ## Do the images and videos show the exact home I can buy?
 

@@ -1,8 +1,8 @@
 # Trusted Properties
 
-> Bengaluru property information and enquiry website covering ten SOBHA apartment and plotted communities.
+> Bengaluru property information and enquiry website covering 18 properties from SOBHA, Puravankara, Provident and DNR Group.
 
-This is not the official SOBHA website. All prices and completion dates are indicative information from the supplied project guide, not live quotations or verified inventory. Visuals are illustrative.
+Trusted Properties is an independent multi-developer platform, not an official developer website. All prices and completion dates are indicative information from the linked project sources, not live quotations or verified inventory. Visuals are illustrative.
 
 ## Main pages
 
@@ -23,6 +23,14 @@ This is not the official SOBHA website. All prices and completion dates are indi
 - [SOBHA Insignia](https://trustedproperties.net/properties/sobha-insignia/): Off ORR · Behind Embassy Tech Village; 3.5 BHK; ₹3.73 Cr (Starting basic price).
 - [SOBHA Townpark](https://trustedproperties.net/properties/sobha-townpark/): Hosur Main Road · Opposite Ramee Guestline; 2, 3 & 4 BHK; ₹1.65 Cr (Starting basic price · 2 BHK).
 - [SOBHA Magnus](https://trustedproperties.net/properties/sobha-magnus/): Bannerghatta Road · Behind Meenakshi Temple; 2, 3 & 4 BHK; ₹3.29 Cr (Starting basic price · 3 BHK).
+- [Purva BluBelle](https://trustedproperties.net/properties/purva-blubelle/): Magadi Road · Rajajinagar; 3 BHK; ₹2.30 Cr (Starting price in supplied guide · confirm charges).
+- [Purva Meraki](https://trustedproperties.net/properties/purva-meraki/): HSR Layout · Near Somasundarapalya Lake; 3 & 4 BHK; ₹3.90 Cr (Starting price in supplied guide · confirm charges).
+- [Purva Atmosphere](https://trustedproperties.net/properties/purva-atmosphere/): Near Manyata Business Park · North Bengaluru; 3 BHK; ₹2.85 Cr (Starting price in supplied guide · confirm charges).
+- [Provident Botanico](https://trustedproperties.net/properties/provident-botanico/): Soukya Road · Whitefield; 2 & 3 BHK; ₹1.25 Cr (Starting price in supplied guide · confirm charges).
+- [Provident Ecopolitan](https://trustedproperties.net/properties/provident-ecopolitan/): Aerospace Park · North Bengaluru; 3 & 3.5 BHK; ₹1.29 Cr (Starting price in supplied guide · confirm charges).
+- [Provident Deansgate](https://trustedproperties.net/properties/provident-deansgate/): IVC Road · North Bengaluru; 3 BHK villaments; ₹2.35 Cr (Starting price in supplied guide · confirm charges).
+- [Provident Sunworth City](https://trustedproperties.net/properties/provident-sunworth-city/): Mysore Road · Near Challaghatta Metro; 2, 3 & 4 BHK; ₹73.49 L (Starting price in supplied guide · confirm charges).
+- [DNR Arista](https://trustedproperties.net/properties/dnr-arista/): Bellandur Main Road · Marathahalli–Sarjapur Outer Ring Road; 2, 3 & 4 BHK; On request (Contact for current pricing).
 
 ## Source and text versions
 
