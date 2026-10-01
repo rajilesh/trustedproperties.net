@@ -1,1 +1,0 @@
-import{i as n}from"./listing-RnziqBjT.js";n();const t=document.querySelector(".menu-button"),i=document.querySelector("#navigation");t?.addEventListener("click",()=>{const e=i.classList.toggle("open");t.setAttribute("aria-expanded",String(e)),t.setAttribute("aria-label",e?"Close navigation":"Open navigation")});
