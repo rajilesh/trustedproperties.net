@@ -68,6 +68,6 @@ body{font-size:16px}h1,h2{letter-spacing:-.035em}h1,h2,h3{overflow-wrap:break-wo
 .umbrella-panel .developer-rank-logo,.umbrella-panel .developer-rank-logo img{min-height:66px;max-height:66px}
 .umbrella-panel .developer-rank-badge{bottom:-22px;min-width:62px;padding:2px 9px 3px;font-size:16px}
 .umbrella-panel .coming-soon-divider{margin:28px 0 14px;padding:0;font-size:clamp(22px,2.5vw,34px);line-height:1.4}
-.umbrella-panel .developer-coming-grid{padding-bottom:20px}
+.umbrella-panel .developer-coming-grid{padding-bottom:56px}
 @media(max-width:800px){.hero.umbrella-hero{grid-template-columns:1fr}.umbrella-panel{padding:30px 0 16px}.umbrella-panel .umbrella-title{font-size:clamp(27px,5vw,36px)}}
 @media(max-width:540px){.umbrella-panel{padding:22px 0 14px}.umbrella-panel .umbrella-heading{width:100%;padding-top:0;margin-bottom:12px}.umbrella-panel .umbrella-title{margin-bottom:14px}.umbrella-panel .developer-rank-grid{gap:24px 10px}.umbrella-panel .developer-rank-card{min-height:84px;padding:8px}.umbrella-panel .developer-rank-logo,.umbrella-panel .developer-rank-logo img{min-height:54px;max-height:54px}.umbrella-panel .developer-rank-badge{bottom:-20px;min-width:54px;padding:2px 7px 3px;font-size:14px}.umbrella-panel .coming-soon-divider{margin:25px 0 12px;font-size:clamp(20px,6vw,28px)}}
