@@ -1,0 +1,21 @@
+{
+  "name": "Your project name",
+  "developer": "Developer name",
+  "location": "Neighbourhood · Bengaluru",
+  "region": "East",
+  "type": "apartment",
+  "category": "A place to call home",
+  "config": "3 BHK",
+  "size": "Confirm unit-specific sizes",
+  "price": "On request",
+  "priceNote": "Contact for current pricing",
+  "area": "Confirm with developer",
+  "units": "Confirm with developer",
+  "completion": "Confirm with developer",
+  "details": "Replace this with facts from the project’s source document.",
+  "preferred": "3 BHK",
+  "highlights": [],
+  "rera": "Confirm applicable phase with developer",
+  "sourceLabel": "Replace with the actual source document title",
+  "sourceUrl": "https://example.com/project/"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "trusted-properties",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "generate": "node scripts/generate-seo.mjs",
+    "predev": "npm run generate",
+    "prebuild": "npm run generate",
+    "test:seo": "npm run build && node --test tests/seo.test.mjs",
+    "add-property": "node scripts/add-property.mjs"
+  },
+  "devDependencies": {
+    "fast-xml-parser": "^5.11.1",
+    "linkedom": "^0.18.13",
+    "vite": "^7.1.0"
+  }
+}
