@@ -1,6 +1,6 @@
 # Purva Meraki
 
-Canonical page: https://trustedproperties.net/properties/purva-meraki/
+Canonical page: https://www.trustedproperties.net/properties/purva-meraki/
 
 - Developer: Puravankara
 - RERA in source: PRM/KA/RERA/1251/310/PR/071022/005307
@@ -19,6 +19,6 @@ Canonical page: https://trustedproperties.net/properties/purva-meraki/
 
 Information is taken from supplied developer guides and official project sources, linked on each project page. Prices are indicative, availability is unconfirmed, and completion dates may vary by phase. Confirm the latest cost sheet, specifications, approvals and RERA details with the developer.
 
-Source: Puravankara / Provident channel-partner guide · page 16 — https://trustedproperties.net/guides/puravankara-provident.pdf#page=16
+Source: Puravankara / Provident channel-partner guide · page 16 — https://www.trustedproperties.net/guides/puravankara-provident.pdf#page=16
 
-Enquire: https://trustedproperties.net/?project=purva-meraki#enquire
+Enquire: https://www.trustedproperties.net/?project=purva-meraki#enquire

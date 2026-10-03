@@ -1,5 +1,14 @@
-https://www.trustedproperties.net/* https://trustedproperties.net/:splat 301
+https://trustedproperties.net/* https://www.trustedproperties.net/:splat 301
 /index.html / 301
+/bangalore/index.html /bangalore/ 301
+/properties-for-rent-in-bangalore/index.html /properties-for-rent-in-bangalore/ 301
+/properties-in-whitefield/index.html /properties-in-whitefield/ 301
+/properties-in-sarjapur-road/index.html /properties-in-sarjapur-road/ 301
+/properties-in-north-bangalore/index.html /properties-in-north-bangalore/ 301
+/properties-in-hsr-layout/index.html /properties-in-hsr-layout/ 301
+/residential-plots-in-bangalore/index.html /residential-plots-in-bangalore/ 301
+/guides/bangalore-property-buying-checklist/index.html /guides/bangalore-property-buying-checklist/ 301
+/rental/index.html /rental/ 301
 /properties/index.html /properties/ 301
 /properties/sobha-one-world/index.html /properties/sobha-one-world/ 301
 /properties/sobha-altair/index.html /properties/sobha-altair/ 301
@@ -19,6 +28,8 @@ https://www.trustedproperties.net/* https://trustedproperties.net/:splat 301
 /properties/provident-deansgate/index.html /properties/provident-deansgate/ 301
 /properties/provident-sunworth-city/index.html /properties/provident-sunworth-city/ 301
 /properties/dnr-arista/index.html /properties/dnr-arista/ 301
+/individual-properties/index.html /individual-properties/ 301
+/individual-properties/kommeri-residence/index.html /individual-properties/kommeri-residence/ 301
 /faqs/index.html /faqs/ 301
 /films/index.html /films/ 301
 /films/film-01/index.html /films/film-01/ 301

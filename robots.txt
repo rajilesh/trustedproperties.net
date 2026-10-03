@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://trustedproperties.net/sitemap.xml
+Sitemap: https://www.trustedproperties.net/sitemap.xml

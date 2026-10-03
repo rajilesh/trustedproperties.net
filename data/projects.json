@@ -1,13 +1,13 @@
 {
   "sources": [
-    "https://trustedproperties.net/project-guide.pdf",
-    "https://trustedproperties.net/guides/puravankara-provident.pdf#page=19",
-    "https://trustedproperties.net/guides/puravankara-provident.pdf#page=16",
-    "https://trustedproperties.net/guides/puravankara-provident.pdf#page=8",
-    "https://trustedproperties.net/guides/puravankara-provident.pdf#page=17",
-    "https://trustedproperties.net/guides/puravankara-provident.pdf#page=11",
-    "https://trustedproperties.net/guides/puravankara-provident.pdf#page=10",
-    "https://trustedproperties.net/guides/puravankara-provident.pdf#page=15",
+    "https://www.trustedproperties.net/project-guide.pdf",
+    "https://www.trustedproperties.net/guides/puravankara-provident.pdf#page=19",
+    "https://www.trustedproperties.net/guides/puravankara-provident.pdf#page=16",
+    "https://www.trustedproperties.net/guides/puravankara-provident.pdf#page=8",
+    "https://www.trustedproperties.net/guides/puravankara-provident.pdf#page=17",
+    "https://www.trustedproperties.net/guides/puravankara-provident.pdf#page=11",
+    "https://www.trustedproperties.net/guides/puravankara-provident.pdf#page=10",
+    "https://www.trustedproperties.net/guides/puravankara-provident.pdf#page=15",
     "https://dnrgroup.in/dnr-arista/"
   ],
   "disclaimer": "Information is taken from supplied developer guides and official project sources, linked on each project page. Prices are indicative, availability is unconfirmed, and completion dates may vary by phase. Confirm the latest cost sheet, specifications, approvals and RERA details with the developer.",
@@ -34,7 +34,7 @@
       "sourceUrl": "/project-guide.pdf",
       "highlights": [],
       "rera": "Confirm applicable phase with developer",
-      "url": "https://trustedproperties.net/properties/sobha-one-world/"
+      "url": "https://www.trustedproperties.net/properties/sobha-one-world/"
     },
     {
       "id": 2,
@@ -58,7 +58,7 @@
       "sourceUrl": "/project-guide.pdf",
       "highlights": [],
       "rera": "Confirm applicable phase with developer",
-      "url": "https://trustedproperties.net/properties/sobha-altair/"
+      "url": "https://www.trustedproperties.net/properties/sobha-altair/"
     },
     {
       "id": 3,
@@ -82,7 +82,7 @@
       "sourceUrl": "/project-guide.pdf",
       "highlights": [],
       "rera": "Confirm applicable phase with developer",
-      "url": "https://trustedproperties.net/properties/sobha-neopolis/"
+      "url": "https://www.trustedproperties.net/properties/sobha-neopolis/"
     },
     {
       "id": 4,
@@ -106,7 +106,7 @@
       "sourceUrl": "/project-guide.pdf",
       "highlights": [],
       "rera": "Confirm applicable phase with developer",
-      "url": "https://trustedproperties.net/properties/sobha-ayana/"
+      "url": "https://www.trustedproperties.net/properties/sobha-ayana/"
     },
     {
       "id": 5,
@@ -130,7 +130,7 @@
       "sourceUrl": "/project-guide.pdf",
       "highlights": [],
       "rera": "Confirm applicable phase with developer",
-      "url": "https://trustedproperties.net/properties/sobha-infinia/"
+      "url": "https://www.trustedproperties.net/properties/sobha-infinia/"
     },
     {
       "id": 6,
@@ -154,7 +154,7 @@
       "sourceUrl": "/project-guide.pdf",
       "highlights": [],
       "rera": "Confirm applicable phase with developer",
-      "url": "https://trustedproperties.net/properties/sobha-sacred-grove/"
+      "url": "https://www.trustedproperties.net/properties/sobha-sacred-grove/"
     },
     {
       "id": 7,
@@ -178,7 +178,7 @@
       "sourceUrl": "/project-guide.pdf",
       "highlights": [],
       "rera": "Confirm applicable phase with developer",
-      "url": "https://trustedproperties.net/properties/sobha-chartered-birdsong/"
+      "url": "https://www.trustedproperties.net/properties/sobha-chartered-birdsong/"
     },
     {
       "id": 8,
@@ -202,7 +202,7 @@
       "sourceUrl": "/project-guide.pdf",
       "highlights": [],
       "rera": "Confirm applicable phase with developer",
-      "url": "https://trustedproperties.net/properties/sobha-insignia/"
+      "url": "https://www.trustedproperties.net/properties/sobha-insignia/"
     },
     {
       "id": 9,
@@ -226,7 +226,7 @@
       "sourceUrl": "/project-guide.pdf",
       "highlights": [],
       "rera": "Confirm applicable phase with developer",
-      "url": "https://trustedproperties.net/properties/sobha-townpark/"
+      "url": "https://www.trustedproperties.net/properties/sobha-townpark/"
     },
     {
       "id": 10,
@@ -250,7 +250,7 @@
       "sourceUrl": "/project-guide.pdf",
       "highlights": [],
       "rera": "Confirm applicable phase with developer",
-      "url": "https://trustedproperties.net/properties/sobha-magnus/"
+      "url": "https://www.trustedproperties.net/properties/sobha-magnus/"
     },
     {
       "id": 11,
@@ -280,7 +280,7 @@
       "sourceUrl": "/guides/puravankara-provident.pdf#page=19",
       "image": "/media/projects/purva-blubelle.webp",
       "imageNote": "Developer reference · artist’s impression",
-      "url": "https://trustedproperties.net/properties/purva-blubelle/"
+      "url": "https://www.trustedproperties.net/properties/purva-blubelle/"
     },
     {
       "id": 12,
@@ -310,7 +310,7 @@
       "sourceUrl": "/guides/puravankara-provident.pdf#page=16",
       "image": "/media/projects/purva-meraki.webp",
       "imageNote": "Developer reference · artist’s impression",
-      "url": "https://trustedproperties.net/properties/purva-meraki/"
+      "url": "https://www.trustedproperties.net/properties/purva-meraki/"
     },
     {
       "id": 13,
@@ -340,7 +340,7 @@
       "sourceUrl": "/guides/puravankara-provident.pdf#page=8",
       "image": "/media/projects/purva-atmosphere.webp",
       "imageNote": "Developer reference · artist’s impression",
-      "url": "https://trustedproperties.net/properties/purva-atmosphere/"
+      "url": "https://www.trustedproperties.net/properties/purva-atmosphere/"
     },
     {
       "id": 14,
@@ -370,7 +370,7 @@
       "sourceUrl": "/guides/puravankara-provident.pdf#page=17",
       "image": "/media/projects/provident-botanico.webp",
       "imageNote": "Developer reference · artist’s impression",
-      "url": "https://trustedproperties.net/properties/provident-botanico/"
+      "url": "https://www.trustedproperties.net/properties/provident-botanico/"
     },
     {
       "id": 15,
@@ -400,7 +400,7 @@
       "sourceUrl": "/guides/puravankara-provident.pdf#page=11",
       "image": "/media/projects/provident-ecopolitan.webp",
       "imageNote": "Developer reference · artist’s impression",
-      "url": "https://trustedproperties.net/properties/provident-ecopolitan/"
+      "url": "https://www.trustedproperties.net/properties/provident-ecopolitan/"
     },
     {
       "id": 16,
@@ -430,7 +430,7 @@
       "sourceUrl": "/guides/puravankara-provident.pdf#page=10",
       "image": "/media/projects/provident-deansgate.webp",
       "imageNote": "Developer reference · artist’s impression",
-      "url": "https://trustedproperties.net/properties/provident-deansgate/"
+      "url": "https://www.trustedproperties.net/properties/provident-deansgate/"
     },
     {
       "id": 17,
@@ -460,7 +460,7 @@
       "sourceUrl": "/guides/puravankara-provident.pdf#page=15",
       "image": "/media/projects/provident-sunworth-city.webp",
       "imageNote": "Developer reference · artist’s impression",
-      "url": "https://trustedproperties.net/properties/provident-sunworth-city/"
+      "url": "https://www.trustedproperties.net/properties/provident-sunworth-city/"
     },
     {
       "id": 18,
@@ -491,7 +491,7 @@
       "sourceUrl": "https://dnrgroup.in/dnr-arista/",
       "image": "/media/projects/dnr-arista.jpg",
       "imageNote": "DNR Group project reference · artist’s impression",
-      "url": "https://trustedproperties.net/properties/dnr-arista/"
+      "url": "https://www.trustedproperties.net/properties/dnr-arista/"
     }
   ]
 }

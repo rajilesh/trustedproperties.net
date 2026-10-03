@@ -1,6 +1,6 @@
 # SOBHA Sacred Grove
 
-Canonical page: https://trustedproperties.net/properties/sobha-sacred-grove/
+Canonical page: https://www.trustedproperties.net/properties/sobha-sacred-grove/
 
 - Developer: SOBHA
 - RERA in source: Confirm applicable phase with developer
@@ -19,6 +19,6 @@ Plot sizes listed: 1,200, 1,350, 1,500 and 1,650 sq ft, plus odd-sized plots. Th
 
 Information is taken from supplied developer guides and official project sources, linked on each project page. Prices are indicative, availability is unconfirmed, and completion dates may vary by phase. Confirm the latest cost sheet, specifications, approvals and RERA details with the developer.
 
-Source: Supplied SOBHA project guide — https://trustedproperties.net/project-guide.pdf
+Source: Supplied SOBHA project guide — https://www.trustedproperties.net/project-guide.pdf
 
-Enquire: https://trustedproperties.net/?project=sobha-sacred-grove#enquire
+Enquire: https://www.trustedproperties.net/?project=sobha-sacred-grove#enquire
