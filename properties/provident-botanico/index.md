@@ -1,6 +1,6 @@
 # Provident Botanico
 
-Canonical page: https://www.trustedproperties.net/properties/provident-botanico/
+Canonical page: https://trustedproperties.net/properties/provident-botanico/
 
 - Developer: Provident
 - RERA in source: PRM/KA/RERA/1250/304/PR/210324/006726
@@ -19,6 +19,6 @@ Canonical page: https://www.trustedproperties.net/properties/provident-botanico/
 
 Information is taken from supplied developer guides and official project sources, linked on each project page. Prices are indicative, availability is unconfirmed, and completion dates may vary by phase. Confirm the latest cost sheet, specifications, approvals and RERA details with the developer.
 
-Source: Puravankara / Provident channel-partner guide · page 17 — https://www.trustedproperties.net/guides/puravankara-provident.pdf#page=17
+Source: Puravankara / Provident channel-partner guide · page 17 — https://trustedproperties.net/guides/puravankara-provident.pdf#page=17
 
-Enquire: https://www.trustedproperties.net/?project=provident-botanico#enquire
+Enquire: https://trustedproperties.net/?project=provident-botanico#enquire

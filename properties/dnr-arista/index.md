@@ -1,6 +1,6 @@
 # DNR Arista
 
-Canonical page: https://www.trustedproperties.net/properties/dnr-arista/
+Canonical page: https://trustedproperties.net/properties/dnr-arista/
 
 - Developer: DNR Group
 - RERA in source: TOR/PRM/KA/RERA/1251/446/PR/230419/001674
@@ -21,4 +21,4 @@ Information is taken from supplied developer guides and official project sources
 
 Source: DNR Group official project website · checked 29 September 2026 — https://dnrgroup.in/dnr-arista/
 
-Enquire: https://www.trustedproperties.net/?project=dnr-arista#enquire
+Enquire: https://trustedproperties.net/?project=dnr-arista#enquire

@@ -1,6 +1,6 @@
 # Purva Atmosphere
 
-Canonical page: https://www.trustedproperties.net/properties/purva-atmosphere/
+Canonical page: https://trustedproperties.net/properties/purva-atmosphere/
 
 - Developer: Puravankara
 - RERA in source: PRM/KA/RERA/1251/472/PR/190204/002350
@@ -19,6 +19,6 @@ Canonical page: https://www.trustedproperties.net/properties/purva-atmosphere/
 
 Information is taken from supplied developer guides and official project sources, linked on each project page. Prices are indicative, availability is unconfirmed, and completion dates may vary by phase. Confirm the latest cost sheet, specifications, approvals and RERA details with the developer.
 
-Source: Puravankara / Provident channel-partner guide · page 8 — https://www.trustedproperties.net/guides/puravankara-provident.pdf#page=8
+Source: Puravankara / Provident channel-partner guide · page 8 — https://trustedproperties.net/guides/puravankara-provident.pdf#page=8
 
-Enquire: https://www.trustedproperties.net/?project=purva-atmosphere#enquire
+Enquire: https://trustedproperties.net/?project=purva-atmosphere#enquire

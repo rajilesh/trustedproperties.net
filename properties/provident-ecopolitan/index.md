@@ -1,6 +1,6 @@
 # Provident Ecopolitan
 
-Canonical page: https://www.trustedproperties.net/properties/provident-ecopolitan/
+Canonical page: https://trustedproperties.net/properties/provident-ecopolitan/
 
 - Developer: Provident
 - RERA in source: PRM/KA/RERA/1251/309/PR/311224/007334
@@ -19,6 +19,6 @@ Canonical page: https://www.trustedproperties.net/properties/provident-ecopolita
 
 Information is taken from supplied developer guides and official project sources, linked on each project page. Prices are indicative, availability is unconfirmed, and completion dates may vary by phase. Confirm the latest cost sheet, specifications, approvals and RERA details with the developer.
 
-Source: Puravankara / Provident channel-partner guide · page 11 — https://www.trustedproperties.net/guides/puravankara-provident.pdf#page=11
+Source: Puravankara / Provident channel-partner guide · page 11 — https://trustedproperties.net/guides/puravankara-provident.pdf#page=11
 
-Enquire: https://www.trustedproperties.net/?project=provident-ecopolitan#enquire
+Enquire: https://trustedproperties.net/?project=provident-ecopolitan#enquire

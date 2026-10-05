@@ -1,6 +1,6 @@
 # Provident Deansgate
 
-Canonical page: https://www.trustedproperties.net/properties/provident-deansgate/
+Canonical page: https://trustedproperties.net/properties/provident-deansgate/
 
 - Developer: Provident
 - RERA in source: PRM/KA/RERA/1250/303/PR/170325/007590
@@ -19,6 +19,6 @@ Canonical page: https://www.trustedproperties.net/properties/provident-deansgate
 
 Information is taken from supplied developer guides and official project sources, linked on each project page. Prices are indicative, availability is unconfirmed, and completion dates may vary by phase. Confirm the latest cost sheet, specifications, approvals and RERA details with the developer.
 
-Source: Puravankara / Provident channel-partner guide · page 10 — https://www.trustedproperties.net/guides/puravankara-provident.pdf#page=10
+Source: Puravankara / Provident channel-partner guide · page 10 — https://trustedproperties.net/guides/puravankara-provident.pdf#page=10
 
-Enquire: https://www.trustedproperties.net/?project=provident-deansgate#enquire
+Enquire: https://trustedproperties.net/?project=provident-deansgate#enquire
