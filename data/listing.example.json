@@ -1,0 +1,27 @@
+{
+  "slug": "example-property",
+  "name": "Example property",
+  "location": "Confirmed street / neighbourhood · City, State",
+  "city": "City",
+  "state": "State",
+  "type": "apartment",
+  "config": "2 BHK resale apartment",
+  "preferred": "2 BHK",
+  "size": "Area on request",
+  "price": "On request",
+  "completion": "Completed community; confirm unit availability and handover",
+  "image": "/media/resale/example-property/cover.webp",
+  "imageAlt": "Describe the property cover photo",
+  "imageNote": "Supplied property photograph",
+  "sourceUrl": "https://example.com/property-source",
+  "sourceLabel": "Property source",
+  "details": "Describe only sourced property facts.",
+  "verificationNote": "Record the source and any details still requiring confirmation.",
+  "facts": [
+    [
+      "Floor",
+      "On request"
+    ]
+  ],
+  "gallery": []
+}

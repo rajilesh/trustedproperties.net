@@ -1,0 +1,133 @@
+[
+  {
+    "slug": "kommeri-residence",
+    "name": "Govindapuram, Near Mims Hospital",
+    "location": "Govindapuram, Near Mims Hospital · Kozhikode, Kerala",
+    "config": "Individual residential home",
+    "preferred": "Not sure yet",
+    "size": "183.27 m² permitted built-up area",
+    "land": "243 m² in the building permit",
+    "price": "On request",
+    "completion": "Confirm construction status and possession",
+    "image": "/media/individual/kommeri-exterior.webp",
+    "floorPlan": "/media/individual/kommeri-floor-plan.webp",
+    "survey": "/media/individual/kommeri-survey.webp",
+    "video": "/media/individual/kommeri-residence.mp4",
+    "poster": "/media/individual/kommeri-video.jpg",
+    "sourceUrl": "/guides/kommeri-building-permit.pdf",
+    "sourceLabel": "Supplied Kozhikode Municipal Corporation building permit, pages 1–3 and 8",
+    "permit": "SCP/34861/2026",
+    "permitDate": "22 March 2026",
+    "permitValidity": "21 March 2031, subject to the permit conditions",
+    "floors": "Ground floor 117.08 m²; first floor 66.19 m²",
+    "details": "An individual residential property presented with an exterior rendering, a floor-plan rendering, a survey image and a short property video. The supplied self-certified building permit records proposed residential construction in Valayanad, Kozhikode, with a total built-up area of 183.27 m² and a plot area of 243 m². Pricing, room configuration, current construction status and availability are on request.",
+    "verificationNote": "The supplied permit is the source for the published area and floor figures. The survey image shows a 9-cent parcel with a 6-cent portion, a different survey reference and 5 m access, while the permit records 243 m² and 2.4 m access. The exterior rendering depicts more levels than the permit’s ground and first floors. Confirm the applicable parcel, approved plans and final configuration with Trusted Properties before proceeding.",
+    "city": "Kozhikode",
+    "state": "Kerala",
+    "type": "house",
+    "imageAlt": "Supplied exterior rendering of Govindapuram, Near Mims Hospital",
+    "imageNote": "Exterior rendering supplied with the property references; confirm the applicable approved design.",
+    "videoNote": "Short video supplied with the property references. Confirm the final design and current site condition with Trusted Properties.",
+    "facts": [
+      [
+        "Land in permit",
+        "243 m² in the building permit"
+      ],
+      [
+        "Floors in permit",
+        "Ground floor 117.08 m²; first floor 66.19 m²"
+      ],
+      [
+        "Building permit",
+        "SCP/34861/2026"
+      ],
+      [
+        "Permit date",
+        "22 March 2026"
+      ],
+      [
+        "Permit validity",
+        "21 March 2031, subject to the permit conditions"
+      ]
+    ],
+    "gallery": [
+      {
+        "src": "/media/individual/kommeri-floor-plan.webp",
+        "alt": "Supplied floor-plan rendering for Govindapuram, Near Mims Hospital",
+        "caption": "Floor-plan rendering. Room configuration and correspondence with the approved plan are to be confirmed."
+      },
+      {
+        "src": "/media/individual/kommeri-survey.webp",
+        "alt": "Supplied survey image for Govindapuram, Near Mims Hospital",
+        "caption": "Supplied survey image. Parcel area, survey reference and access differ from the permit; see the reference notes."
+      }
+    ],
+    "sourceNote": "The permit states that it is valid only with the duly signed acknowledgement receipt in Appendix A1B.",
+    "videoDuration": 9.276667,
+    "url": "https://www.trustedproperties.net/individual-properties/kommeri-residence/"
+  },
+  {
+    "slug": "mayanadu-residence",
+    "name": "Mayanadu Residence",
+    "location": "Mayanadu, near Medical College · Kozhikode, Kerala",
+    "city": "Kozhikode",
+    "state": "Kerala",
+    "type": "house",
+    "config": "Fully furnished individual home",
+    "preferred": "Not sure yet",
+    "size": "2,300 sq ft super built-up area",
+    "land": "7 cents",
+    "price": "On request",
+    "completion": "On request",
+    "image": "/media/individual/mayanadu-residence/exterior.webp",
+    "imageAlt": "Exterior of Mayanadu Residence",
+    "imageNote": "Exterior photograph supplied with the listing.",
+    "details": "A fully furnished individual home in Mayanadu, near Medical College, Kozhikode. The property has a super built-up area of 2,300 sq ft on 7 cents of land. Contact Trusted Properties for pricing, availability and a site visit.",
+    "verificationNote": "Location, super built-up area, furnishing status and land area are supplied listing details. Confirm furnishing inclusions, current availability and property documents with Trusted Properties.",
+    "sourceUrl": "/media/individual/mayanadu-residence/exterior.webp",
+    "sourceLabel": "Supplied property photograph",
+    "facts": [
+      [
+        "Land area",
+        "7 cents"
+      ],
+      [
+        "Furnishing",
+        "Fully furnished"
+      ]
+    ],
+    "gallery": [
+      {
+        "src": "/media/individual/mayanadu-residence/entrance.webp",
+        "alt": "Entrance and wooden partition at Mayanadu Residence",
+        "caption": "Entrance and wooden partition at Mayanadu Residence. Photo supplied with the listing."
+      },
+      {
+        "src": "/media/individual/mayanadu-residence/kitchen.webp",
+        "alt": "Kitchen with fitted cabinets at Mayanadu Residence",
+        "caption": "Kitchen with fitted cabinets at Mayanadu Residence. Photo supplied with the listing."
+      },
+      {
+        "src": "/media/individual/mayanadu-residence/kitchen-wide.webp",
+        "alt": "Wide view of the kitchen at Mayanadu Residence",
+        "caption": "Wide view of the kitchen at Mayanadu Residence. Photo supplied with the listing."
+      },
+      {
+        "src": "/media/individual/mayanadu-residence/living-room.webp",
+        "alt": "Living room and entrance at Mayanadu Residence",
+        "caption": "Living room and entrance at Mayanadu Residence. Photo supplied with the listing."
+      },
+      {
+        "src": "/media/individual/mayanadu-residence/staircase.webp",
+        "alt": "Hall and staircase at Mayanadu Residence",
+        "caption": "Hall and staircase at Mayanadu Residence. Photo supplied with the listing."
+      },
+      {
+        "src": "/media/individual/mayanadu-residence/hall.webp",
+        "alt": "Interior hall at Mayanadu Residence",
+        "caption": "Interior hall at Mayanadu Residence. Photo supplied with the listing."
+      }
+    ],
+    "url": "https://www.trustedproperties.net/individual-properties/mayanadu-residence/"
+  }
+]

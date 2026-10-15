@@ -1,0 +1,70 @@
+# Trusted Properties
+
+> Bengaluru property information and enquiry website covering 21 properties from SOBHA, Puravankara, Provident and DNR Group.
+
+Trusted Properties is an independent multi-developer platform, not an official developer website. All prices and completion dates are indicative information from the linked project sources, not live quotations or verified inventory. Visuals are illustrative.
+
+## Main pages
+
+- [Home](https://www.trustedproperties.net/): Overview, imagery and enquiry form.
+- [All Bengaluru properties](https://www.trustedproperties.net/properties/): Compare every listed project.
+- [Property FAQs](https://www.trustedproperties.net/faqs/): Pricing, configurations, plots, timelines and enquiry information.
+- [Property films](https://www.trustedproperties.net/films/): Eight supplied reference videos.
+
+## Project guides
+
+- [SOBHA One World](https://www.trustedproperties.net/properties/sobha-one-world/): Greater Whitefield · Old Madras Road; 1, 2, 3 & 4 BHK; ₹1.10 Cr (Starting basic price).
+- [SOBHA Altair](https://www.trustedproperties.net/properties/sobha-altair/): Off Sarjapura Road · Beside Royal Pavilion; 3 & 4 BHK; ₹3.55 Cr (Starting basic price).
+- [SOBHA Neopolis](https://www.trustedproperties.net/properties/sobha-neopolis/): Silver Oaks Main Road · Off Panathur Road; 1, 3 & 4 BHK; ₹94 L (Starting basic price · 1 BHK).
+- [SOBHA Ayana](https://www.trustedproperties.net/properties/sobha-ayana/): Panathur Road · East Bengaluru; 3 BHK; ₹2.30 Cr (Starting basic price).
+- [SOBHA Infinia](https://www.trustedproperties.net/properties/sobha-infinia/): HSR Layout · Bengaluru; 3 & 4 BHK; ₹4.22 Cr (Starting guide price).
+- [SOBHA Sacred Grove](https://www.trustedproperties.net/properties/sobha-sacred-grove/): Chikka Tirupati · Bengaluru; Residential plots; ₹8,200 / sq ft (Approx. inclusive rate in guide).
+- [SOBHA Chartered Birdsong](https://www.trustedproperties.net/properties/sobha-chartered-birdsong/): Off Rajanakunte · Bengaluru; Residential plots; ₹8,443 / sq ft (Approx. inclusive rate in guide).
+- [SOBHA Insignia](https://www.trustedproperties.net/properties/sobha-insignia/): Off ORR · Behind Embassy Tech Village; 3.5 BHK; ₹3.73 Cr (Starting basic price).
+- [SOBHA Townpark](https://www.trustedproperties.net/properties/sobha-townpark/): Hosur Main Road · Opposite Ramee Guestline; 2, 3 & 4 BHK; ₹1.65 Cr (Starting basic price · 2 BHK).
+- [SOBHA Magnus](https://www.trustedproperties.net/properties/sobha-magnus/): Bannerghatta Road · Behind Meenakshi Temple; 2, 3 & 4 BHK; ₹3.29 Cr (Starting basic price · 3 BHK).
+- [Purva BluBelle](https://www.trustedproperties.net/properties/purva-blubelle/): Magadi Main Road · Bengaluru; 3 BHK; ₹2.40 Cr (Starting sheet price · confirm charges).
+- [Purva Meraki](https://www.trustedproperties.net/properties/purva-meraki/): HSR Road · Bengaluru; 3 & 4 BHK; ₹4.20 Cr (Starting sheet price · confirm charges).
+- [Purva Atmosphere](https://www.trustedproperties.net/properties/purva-atmosphere/): Near Manyata Business Park · North Bengaluru; 3 BHK; ₹2.85 Cr (Starting price in supplied guide · confirm charges).
+- [Provident Botanico](https://www.trustedproperties.net/properties/provident-botanico/): Soukya Road · Whitefield; 2 & 3 BHK; ₹1.25 Cr (Starting price in supplied guide · confirm charges).
+- [Provident Ecopolitan](https://www.trustedproperties.net/properties/provident-ecopolitan/): Aerospace Park · North Bengaluru; 3 & 3.5 BHK; ₹1.29 Cr (Starting price in supplied guide · confirm charges).
+- [Provident Deansgate](https://www.trustedproperties.net/properties/provident-deansgate/): IVC Road · North Bengaluru; 3 BHK villaments; ₹2.35 Cr (Starting price in supplied guide · confirm charges).
+- [Provident Sunworth City](https://www.trustedproperties.net/properties/provident-sunworth-city/): Mysore Road · Challaghatta Metro Station; 2 & 3 BHK; ₹85 L (Starting sheet price · confirm charges).
+- [DNR Arista](https://www.trustedproperties.net/properties/dnr-arista/): Bellandur Main Road · Marathahalli–Sarjapur Outer Ring Road; 2, 3 & 4 BHK; ₹2.90 Cr (Phase 2 · 3 BHK sheet total · April 2026 · exclusions apply).
+- [Purva Silversky](https://www.trustedproperties.net/properties/purva-silversky/): Huskur Metro Station · Electronic City Phase 2; 3, 3.5 & 4 BHK; ₹2.55 Cr (Starting sheet price · confirm charges).
+- [Purva Orient Grand](https://www.trustedproperties.net/properties/purva-orient-grand/): Lalbagh Main Road · Bengaluru; 3 & 4 BHK; ₹9 Cr (Starting sheet price · 4 BHK · confirm charges).
+- [Purva Heritage](https://www.trustedproperties.net/properties/purva-heritage/): Kudlu Gate Metro Station · Hosur Road; 2 & 3 BHK; ₹2.10 Cr (Starting sheet price · confirm charges).
+
+## Source and text versions
+
+- [Source project guide](https://www.trustedproperties.net/project-guide.pdf): Supplied SOBHA reference; current details must be confirmed.
+- [Full text collection](https://www.trustedproperties.net/llms-full.txt): Project facts and FAQ answers in one file.
+- [Project data](https://www.trustedproperties.net/data/projects.json): Machine-readable facts and canonical links.
+- [Home in Markdown](https://www.trustedproperties.net/index.md): Text version of the overview.
+- [Privacy notice](https://www.trustedproperties.net/privacy/): Form data and contact consent.
+
+Project pages also have Markdown versions at their canonical directory URL followed by index.md. These text versions describe the same facts available to visitors.
+
+## Resale and individual properties
+
+- [Individual properties](https://www.trustedproperties.net/individual-properties/): Collection of 2 properties.
+- [Govindapuram, Near Mims Hospital](https://www.trustedproperties.net/individual-properties/kommeri-residence/): Govindapuram, Near Mims Hospital · Kozhikode, Kerala; Individual residential home; On request.
+- [Mayanadu Residence](https://www.trustedproperties.net/individual-properties/mayanadu-residence/): Mayanadu, near Medical College · Kozhikode, Kerala; Fully furnished individual home; On request.
+- [Individual properties data](https://www.trustedproperties.net/data/individual-properties.json): Sourced facts, media and canonical links.
+- [Resale properties](https://www.trustedproperties.net/resale-properties/): Collection of 2 properties.
+- [Trifecta Esplanade](https://www.trustedproperties.net/resale-properties/trifecta-esplanade/): Belathur Main Road, Belathur, Krishnarajapura · Bengaluru, Karnataka; 2 BHK resale apartment; ₹1.1 Cr.
+- [Uber Verdant](https://www.trustedproperties.net/resale-properties/uber-verdant/): Sarjapura Main Road, Doddakannehalli, Bengaluru – 560035; 2 BHK + 2 bathrooms resale apartment; ₹2 Cr.
+- [Resale properties data](https://www.trustedproperties.net/data/resale-properties.json): Sourced facts, media and canonical links.
+
+These listings use supplied photographs, plans or renderings labelled on each page. Prices and availability require confirmation. Each listing has a Markdown version at its canonical directory followed by index.md.
+
+## Locality and buyer guides
+
+- [Find your property in Bangalore](https://www.trustedproperties.net/bangalore/): Find Bangalore homes and plots with Trusted Properties. Compare localities, explore developer projects and use practical guides for buying or renting.
+- [Properties for rent in Bangalore: a practical guide](https://www.trustedproperties.net/properties-for-rent-in-bangalore/): Planning to rent in Bangalore? Compare localities, BHK sizes, furnishing, monthly costs and viewing checks. A practical guide, without live rental listings.
+- [Properties in Whitefield and Greater Whitefield](https://www.trustedproperties.net/properties-in-whitefield/): Compare SOBHA One World and Provident Botanico around Whitefield, Bangalore. Explore sourced configurations, locations, guide prices and project details.
+- [Sarjapur Road and nearby East Bangalore properties](https://www.trustedproperties.net/properties-in-sarjapur-road/): Explore SOBHA Altair off Sarjapura Road and nearby Panathur and Bellandur projects. Compare each Bangalore address, configuration and sourced project guide.
+- [Homes and plots in North Bangalore](https://www.trustedproperties.net/properties-in-north-bangalore/): Compare North Bangalore apartments, villaments and plots at Purva Atmosphere, Provident Ecopolitan, Deansgate and SOBHA Chartered Birdsong.
+- [Properties in HSR Layout, Bangalore](https://www.trustedproperties.net/properties-in-hsr-layout/): Compare SOBHA Infinia and Purva Meraki in HSR Layout, Bangalore. Explore 3 and 4 BHK guide configurations, project locations and indicative purchase prices.
+- [Residential plots in Bangalore](https://www.trustedproperties.net/residential-plots-in-bangalore/): Compare SOBHA Sacred Grove at Chikka Tirupati and Chartered Birdsong off Rajanakunte. Review sourced plot sizes, locations and indicative per-square-foot rates.
+- [A Bangalore property buying checklist](https://www.trustedproperties.net/guides/bangalore-property-buying-checklist/): Prepare for a Bangalore property purchase: compare exact addresses, floor plans, itemised costs, project phases, source documents and questions for site visits.
