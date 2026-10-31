@@ -1,0 +1,25 @@
+# SOBHA Infinia
+
+Canonical page: https://www.trustedproperties.net/properties/sobha-infinia/
+
+- Developer: SOBHA
+- RERA in source: Confirm applicable phase with developer
+- Highlights: Launch listed: September 2024; Basic guide rate: ₹20,333 / sq ft; Floors in guide: 2B+G+13
+- Location: HSR Layout · Bengaluru
+- Configuration: 3 & 4 BHK
+- Size range: 1,768–3,264 sq ft
+- Community area: 4.708 acres
+- Homes or plots: 274 residences
+- Guide completion: June 2030
+- Guide price: ₹4.22 Cr (Starting guide price)
+
+## Prices and configurations
+
+3 BHK from ₹4.22 Cr and 4 BHK from ₹5.78 Cr. The guide lists the 3,264 sq ft 4 BHK at ₹7.50 Cr onwards. Select layouts include a domestic-help room. Super built-up areas in the guide: 3 BHK: 1,768–2,098 sq ft; 3 BHK with domestic-help room: 2,187–2,862 sq ft; 4 BHK: 2,225 sq ft; 4 BHK with domestic-help room: 2,327–3,264 sq ft.
+
+Information is taken from supplied developer guides and official project sources, linked on each project page. Prices are indicative, availability is unconfirmed, and completion dates may vary by phase. Confirm the latest cost sheet, specifications, approvals and RERA details with the developer.
+
+Source: Supplied Bangalore All Project Details · SOBHA · page 1 — https://www.trustedproperties.net/project-guide.pdf
+
+
+Enquire: https://www.trustedproperties.net/?project=sobha-infinia#enquire
