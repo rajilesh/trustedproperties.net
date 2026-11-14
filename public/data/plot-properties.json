@@ -1,0 +1,71 @@
+[
+  {
+    "slug": "raaga-homes",
+    "name": "Raaga Homes",
+    "location": "Nagappa Reddy Layout, Kagadasapura · Bengaluru",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "type": "plot",
+    "config": "Residential resale plot with an existing 1 BHK house",
+    "preferred": "1 BHK",
+    "size": "3,185 sq ft",
+    "price": "₹4.5 crore (negotiable)",
+    "completion": "Ready to move",
+    "image": "/media/plots/raaga-homes/plot-overview.jpg",
+    "imageAlt": "Overview of the Raaga Homes plot from the property walkthrough",
+    "imageNote": "Still from the supplied property walkthrough.",
+    "details": "A west-facing residential resale plot in Nagappa Reddy Layout, Kagadasapura. The site includes an existing 1 BHK house with an asbestos roof, a sump, an overhead water tank, a BESCOM electricity connection and a compound wall.",
+    "verificationNote": "The asking price, readiness, A Khata and BBMP tax status are as reported in the supplied listing details. Confirm the current price, availability and property documents with Trusted Properties.",
+    "sourceUrl": "/media/plots/raaga-homes/walkthrough.mp4",
+    "sourceLabel": "Watch the supplied property walkthrough",
+    "mapUrl": "https://maps.app.goo.gl/R6Yd74LiDryvgWqY8?g_st=iw",
+    "video": "/media/plots/raaga-homes/walkthrough.mp4",
+    "poster": "/media/plots/raaga-homes/plot-overview.jpg",
+    "videoNote": "The supplied walkthrough shows the plot, compound wall and exterior of the existing house.",
+    "videoDuration": 55.588333,
+    "facts": [
+      [
+        "Plot dimensions",
+        "46.5 × 68.5 ft"
+      ],
+      [
+        "Road frontage",
+        "46.5 ft, west-facing"
+      ],
+      [
+        "Khata",
+        "A Khata"
+      ],
+      [
+        "BBMP property tax",
+        "Paid up to date, as reported"
+      ],
+      [
+        "Asking rate",
+        "₹14,128 per sq ft"
+      ],
+      [
+        "Nearby landmarks",
+        "Shaneeswara Temple and Om Sakthi Temple"
+      ]
+    ],
+    "gallery": [
+      {
+        "src": "/media/plots/raaga-homes/side-view.jpg",
+        "alt": "Side view across the Raaga Homes plot",
+        "caption": "Side view of the plot from the walkthrough."
+      },
+      {
+        "src": "/media/plots/raaga-homes/boundary-wall.jpg",
+        "alt": "Brick boundary wall at the Raaga Homes plot",
+        "caption": "Boundary wall shown in the walkthrough."
+      },
+      {
+        "src": "/media/plots/raaga-homes/house-exterior.jpg",
+        "alt": "Exterior of the existing house at the Raaga Homes plot",
+        "caption": "Existing house shown in the walkthrough."
+      }
+    ],
+    "url": "https://www.trustedproperties.net/plots/raaga-homes/"
+  }
+]

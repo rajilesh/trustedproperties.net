@@ -241,5 +241,136 @@
     "poster": "/media/resale/uber-verdant/video-poster.jpg",
     "videoDuration": 265.2961875,
     "videoNote": "Supplied Uber Verdant apartment walkthrough."
+  },
+  {
+    "slug": "shubh-enclave",
+    "name": "Shubh Enclave",
+    "location": "Sarjapur Road, Bengaluru, Karnataka",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "type": "apartment",
+    "config": "Luxury 2 BHK top-floor resale apartment",
+    "preferred": "2 BHK",
+    "size": "1,386 sq ft",
+    "price": "₹2.47 Cr",
+    "completion": "Resale apartment",
+    "image": "/media/resale/shubh-enclave/living-room.webp",
+    "imageAlt": "Living room with chandelier and balcony access",
+    "imageNote": "Supplied apartment photograph",
+    "sourceUrl": "/media/resale/shubh-enclave/living-room.webp",
+    "sourceLabel": "View the supplied cover photograph",
+    "details": "This 1,386 sq ft luxury 2 BHK apartment at Shubh Enclave is on the 17th and top floor and has a west-facing entrance. Both bedrooms have sunrise views from the balcony and windows. The living room balcony looks out over the lake and Bengaluru skyline.",
+    "verificationNote": "Property details and photographs were supplied for this listing.",
+    "phone": "+917026129861",
+    "facts": [
+      [
+        "Floor",
+        "17th (top floor)"
+      ],
+      [
+        "Entrance facing",
+        "West"
+      ],
+      [
+        "Bedroom views",
+        "Sunrise"
+      ],
+      [
+        "Living room balcony views",
+        "Lake, sky and city skyline"
+      ]
+    ],
+    "gallery": [
+      {
+        "src": "/media/resale/shubh-enclave/living-room.webp",
+        "alt": "Living room with chandelier and balcony access",
+        "caption": "Living room with chandelier and balcony access."
+      },
+      {
+        "src": "/media/resale/shubh-enclave/living-room-balcony.webp",
+        "alt": "Living room balcony with plants and a city view",
+        "caption": "Living room balcony with plants and a city view."
+      },
+      {
+        "src": "/media/resale/shubh-enclave/dining-area.webp",
+        "alt": "Dining area overlooking the kitchen",
+        "caption": "Dining area overlooking the kitchen."
+      },
+      {
+        "src": "/media/resale/shubh-enclave/primary-bedroom.webp",
+        "alt": "Bedroom with sliding doors to the balcony",
+        "caption": "Bedroom with sliding doors to the balcony."
+      },
+      {
+        "src": "/media/resale/shubh-enclave/second-bedroom.webp",
+        "alt": "Bedroom with a window seat and built-in desk",
+        "caption": "Bedroom with a window seat and built-in desk."
+      },
+      {
+        "src": "/media/resale/shubh-enclave/kitchen.webp",
+        "alt": "Kitchen with built-in cabinetry and breakfast bar",
+        "caption": "Kitchen with built-in cabinetry and breakfast bar."
+      },
+      {
+        "src": "/media/resale/shubh-enclave/bedroom-balcony.webp",
+        "alt": "Bedroom balcony overlooking the city",
+        "caption": "Bedroom balcony overlooking the city."
+      },
+      {
+        "src": "/media/resale/shubh-enclave/bathroom.webp",
+        "alt": "Bathroom with a glass shower enclosure",
+        "caption": "Bathroom with a glass shower enclosure."
+      },
+      {
+        "src": "/media/resale/shubh-enclave/living-room-seating.webp",
+        "alt": "Living room seating facing the balcony",
+        "caption": "Living room seating facing the balcony."
+      },
+      {
+        "src": "/media/resale/shubh-enclave/living-room-media-wall.webp",
+        "alt": "Living room media wall and seating",
+        "caption": "Living room media wall and seating."
+      },
+      {
+        "src": "/media/resale/shubh-enclave/bedroom-window.webp",
+        "alt": "Bedroom window and built-in cabinets",
+        "caption": "Bedroom window and built-in cabinets."
+      },
+      {
+        "src": "/media/resale/shubh-enclave/foyer-detail.webp",
+        "alt": "Foyer display with pendant lights",
+        "caption": "Foyer display with pendant lights."
+      },
+      {
+        "src": "/media/resale/shubh-enclave/pooja-cabinet.webp",
+        "alt": "Built-in pooja cabinet in the living area",
+        "caption": "Built-in pooja cabinet in the living area."
+      },
+      {
+        "src": "/media/resale/shubh-enclave/breakfast-bar.webp",
+        "alt": "Breakfast bar and glass-front cabinets",
+        "caption": "Breakfast bar and glass-front cabinets."
+      },
+      {
+        "src": "/media/resale/shubh-enclave/hallway.webp",
+        "alt": "Hallway with mirrored panels and display shelves",
+        "caption": "Hallway with mirrored panels and display shelves."
+      },
+      {
+        "src": "/media/resale/shubh-enclave/utility-room.webp",
+        "alt": "Utility room with a sink and washing machine",
+        "caption": "Utility room with a sink and washing machine."
+      },
+      {
+        "src": "/media/resale/shubh-enclave/kitchen-worktop.webp",
+        "alt": "Kitchen worktop and cooktop",
+        "caption": "Kitchen worktop and cooktop."
+      },
+      {
+        "src": "/media/resale/shubh-enclave/wardrobes.webp",
+        "alt": "Built-in wardrobes beside the bathroom",
+        "caption": "Built-in wardrobes beside the bathroom."
+      }
+    ]
   }
 ]

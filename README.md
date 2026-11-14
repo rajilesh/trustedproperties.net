@@ -80,16 +80,16 @@ Deploy the complete `dist/` directory, preserving the project and film subdirect
 
 This is a file-based publishing workflow, not a public admin/CMS. Adding a developer to a property automatically adds it to the homepage developer collection and filters. Counts, detail pages, JSON data and sitemap entries are generated on build. Edit existing records directly in `data/properties.json`. Keep existing slugs stable to preserve URLs.
 
-## Add a resale or individual property
+## Add a resale or individual property, or a plot
 
-Both collections now share a reusable publishing format. Trifecta Esplanade belongs to resale; Govindapuram, Near Mims Hospital remains an individual home at its existing URL.
+The three collections share a publishing format. Trifecta Esplanade belongs to resale; Govindapuram, Near Mims Hospital remains an individual home at its existing URL.
 
 1. Copy `data/listing.example.json` and replace its values with sourced property facts. Use “On request” for unknown price, area or availability. `facts` contains label/value pairs; `gallery` contains `src`, descriptive `alt` text and a visible `caption` for each image.
-2. Put media under `public/media/resale/<slug>/` or `public/media/individual/<slug>/`. `image` is the cover. Optional `video` requires `poster`, `videoNote` and `videoDuration` in seconds. Set `videoUploadDate` only when the actual first-publication date is known.
-3. Run `npm run add-listing -- resale path/to/property.json` or `npm run add-listing -- individual path/to/property.json`. The command checks required facts, duplicate slugs, unsafe URLs and missing local assets before changing the catalogue.
+2. Put media under `public/media/resale/<slug>/`, `public/media/individual/<slug>/` or `public/media/plots/<slug>/`. `image` is the cover. Optional `video` requires `poster`, `videoNote` and `videoDuration` in seconds. Set `videoUploadDate` only when the actual first-publication date is known.
+3. Run `npm run add-listing -- <collection> path/to/property.json`, using `resale`, `individual` or `plot`. The command checks required facts, duplicate slugs, unsafe URLs and missing local assets before changing the catalogue.
 4. Run `npm run test:seo` and `npm run test:listings`, then deploy the complete `dist/` directory.
 
-Edit existing records in `data/resale-properties.json` or `data/individual-properties.json` and keep slugs stable. Builds automatically register every listing page, create collection cards and search filters, generate metadata and JSON-LD, and update page/image/video sitemaps, Markdown, public JSON data, `llms.txt` and `llms-full.txt`. Shared rendering lives in `scripts/generate-listings.mjs`.
+Edit existing records in `data/resale-properties.json`, `data/individual-properties.json` or `data/plot-properties.json` and keep slugs stable. Builds automatically register every listing page, create collection cards and search filters, generate metadata and JSON-LD, and update page/image/video sitemaps, Markdown, public JSON data, `llms.txt` and `llms-full.txt`. Shared rendering lives in `scripts/generate-listings.mjs`.
 
 Keep `public/` as the source for listing media and local documents. Generation also copies these assets to their repository-root paths (for example `public/media/resale/<slug>/cover.webp` to `media/resale/<slug>/cover.webp`) to preserve the existing static-root layout. Include both copies in commits. Vite copies the `public/` assets into `dist/` for production deployment.
 

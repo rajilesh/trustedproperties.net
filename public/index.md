@@ -28,16 +28,20 @@ Trusted Properties is an independent multi-developer platform, not an official d
 
 [Property FAQs](https://www.trustedproperties.net/faqs/) · [Films](https://www.trustedproperties.net/films/) · [Enquire](https://www.trustedproperties.net/#enquire)
 
-## Resale and individual properties
+## Individual, resale and plot listings
 
 - [Individual properties](https://www.trustedproperties.net/individual-properties/): Collection of 3 properties.
 - [Govindapuram, Near Mims Hospital](https://www.trustedproperties.net/individual-properties/kommeri-residence/): Govindapuram, Near Mims Hospital · Kozhikode, Kerala; Individual residential home; On request.
 - [Mayanadu Residence](https://www.trustedproperties.net/individual-properties/mayanadu-residence/): Mayanadu, near Medical College · Kozhikode, Kerala; Fully furnished individual home; On request.
 - [ST Bed Koramangala Apartment](https://www.trustedproperties.net/individual-properties/st-bed-koramangala-apartment/): ST Bed, Koramangala · Bengaluru, Karnataka; Brand-new apartment for sale; ₹2.75 Cr.
 - [Individual properties data](https://www.trustedproperties.net/data/individual-properties.json): Sourced facts, media and canonical links.
-- [Resale properties](https://www.trustedproperties.net/resale-properties/): Collection of 2 properties.
+- [Resale properties](https://www.trustedproperties.net/resale-properties/): Collection of 3 properties.
 - [Trifecta Esplanade](https://www.trustedproperties.net/resale-properties/trifecta-esplanade/): Belathur Main Road, Belathur, Krishnarajapura · Bengaluru, Karnataka; 2 BHK resale apartment; ₹1.1 Cr.
 - [Uber Verdant](https://www.trustedproperties.net/resale-properties/uber-verdant/): Sarjapura Main Road, Doddakannehalli, Bengaluru – 560035; 2 BHK + 2 bathrooms resale apartment; ₹2 Cr.
+- [Shubh Enclave](https://www.trustedproperties.net/resale-properties/shubh-enclave/): Sarjapur Road, Bengaluru, Karnataka; Luxury 2 BHK top-floor resale apartment; ₹2.47 Cr.
 - [Resale properties data](https://www.trustedproperties.net/data/resale-properties.json): Sourced facts, media and canonical links.
+- [Plots](https://www.trustedproperties.net/plots/): Collection of 1 properties.
+- [Raaga Homes](https://www.trustedproperties.net/plots/raaga-homes/): Nagappa Reddy Layout, Kagadasapura · Bengaluru; Residential resale plot with an existing 1 BHK house; ₹4.5 crore (negotiable).
+- [Plots data](https://www.trustedproperties.net/data/plot-properties.json): Sourced facts, media and canonical links.
 
 These listings use supplied photographs, plans or renderings labelled on each page. Prices and availability require confirmation. Each listing has a Markdown version at its canonical directory followed by index.md.

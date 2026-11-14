@@ -4,7 +4,7 @@ import { propertyCollections, validatePropertyCatalog, propertyAssetPaths } from
 
 const [collection, input] = process.argv.slice(2);
 try {
-  if (!propertyCollections[collection] || !input) throw new Error('Usage: npm run add-listing -- <resale|individual> path/to/property.json. Start with data/listing.example.json.');
+  if (!propertyCollections[collection] || !input) throw new Error('Usage: npm run add-listing -- <resale|individual|plot> path/to/property.json. Start with data/listing.example.json.');
   const path = new URL(`../data/${collection}-properties.json`, import.meta.url);
   const records = JSON.parse(await readFile(path,'utf8'));
   const property = JSON.parse(await readFile(resolve(input),'utf8'));
