@@ -30,10 +30,11 @@ Trusted Properties is an independent multi-developer platform, not an official d
 
 ## Individual, resale and plot listings
 
-- [Individual properties](https://www.trustedproperties.net/individual-properties/): Collection of 3 properties.
+- [Individual properties](https://www.trustedproperties.net/individual-properties/): Collection of 4 properties.
 - [Govindapuram, Near Mims Hospital](https://www.trustedproperties.net/individual-properties/kommeri-residence/): Govindapuram, Near Mims Hospital · Kozhikode, Kerala; Individual residential home; On request.
 - [Mayanadu Residence](https://www.trustedproperties.net/individual-properties/mayanadu-residence/): Mayanadu, near Medical College · Kozhikode, Kerala; Fully furnished individual home; On request.
 - [ST Bed Koramangala Apartment](https://www.trustedproperties.net/individual-properties/st-bed-koramangala-apartment/): ST Bed, Koramangala · Bengaluru, Karnataka; Brand-new apartment for sale; ₹2.75 Cr.
+- [Furnished 1 BHK for Rent in ST Bed, Koramangala](https://www.trustedproperties.net/individual-properties/st-bed-koramangala-1bhk-rental/): ST Bed, Koramangala · Bengaluru, Karnataka; Brand-new, fully furnished 1 BHK for rent; ₹38,000 per month, including maintenance.
 - [Individual properties data](https://www.trustedproperties.net/data/individual-properties.json): Sourced facts, media and canonical links.
 - [Resale properties](https://www.trustedproperties.net/resale-properties/): Collection of 3 properties.
 - [Trifecta Esplanade](https://www.trustedproperties.net/resale-properties/trifecta-esplanade/): Belathur Main Road, Belathur, Krishnarajapura · Bengaluru, Karnataka; 2 BHK resale apartment; ₹1.1 Cr.

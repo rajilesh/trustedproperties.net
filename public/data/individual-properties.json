@@ -203,5 +203,41 @@
     "videoDuration": 58.96,
     "videoNote": "Walkthrough video supplied with this property listing.",
     "url": "https://www.trustedproperties.net/individual-properties/st-bed-koramangala-apartment/"
+  },
+  {
+    "slug": "st-bed-koramangala-1bhk-rental",
+    "name": "Furnished 1 BHK for Rent in ST Bed, Koramangala",
+    "location": "ST Bed, Koramangala · Bengaluru, Karnataka",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "type": "apartment",
+    "config": "Brand-new, fully furnished 1 BHK for rent",
+    "preferred": "1 BHK",
+    "size": "On request",
+    "price": "₹38,000 per month, including maintenance",
+    "completion": "Available from 30 November 2026",
+    "image": "/media/individual/st-bed-koramangala-1bhk-rental/bedroom.jpg",
+    "imageAlt": "Furnished bedroom with a bed and balcony doorway",
+    "imageNote": "Still from the property walkthrough.",
+    "details": "A brand-new, fully furnished 1 BHK for rent in ST Bed, Koramangala, Bengaluru, with a balcony, Wi-Fi and air conditioning. Rent is ₹38,000 per month, including maintenance. Available from 30 November 2026.",
+    "verificationNote": "Contact Trusted Properties to check current availability and arrange a viewing.",
+    "sourceUrl": "/media/individual/st-bed-koramangala-1bhk-rental/walkthrough.mp4",
+    "sourceLabel": "Property walkthrough video",
+    "facts": [
+      [
+        "Furnishing",
+        "Fully furnished"
+      ],
+      [
+        "Amenities",
+        "Balcony, Wi-Fi and air conditioning"
+      ]
+    ],
+    "gallery": [],
+    "video": "/media/individual/st-bed-koramangala-1bhk-rental/walkthrough.mp4",
+    "poster": "/media/individual/st-bed-koramangala-1bhk-rental/bedroom.jpg",
+    "videoDuration": 29.208333,
+    "videoNote": "Walkthrough of the furnished 1 BHK and its balcony.",
+    "url": "https://www.trustedproperties.net/individual-properties/st-bed-koramangala-1bhk-rental/"
   }
 ]

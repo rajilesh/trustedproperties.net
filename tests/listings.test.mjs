@@ -29,10 +29,13 @@ test('resale and individual pages, sources and media survive the production buil
       const entity=graph.find(n=>n['@id']===site.origin+path+'#property');
       assert.equal(entity.address.addressLocality,p.city);
       assert.equal(entity.address.addressRegion,p.state);
-      assert.ok(document.querySelector(`a[href="${p.sourceUrl}"]`));
+      const source = p.video && p.sourceUrl === p.video
+        ? `[data-property-lightbox][data-media-type="video"][data-media-src="${p.sourceUrl}"]`
+        : `a[href="${p.sourceUrl}"]`;
+      assert.ok(document.querySelector(source));
       for (const [name,value] of p.facts) {assert.ok(document.body.textContent.includes(value),name);assert.ok(entity.additionalProperty.some(f=>f.name===name&&f.value===value));}
       for (const media of p.gallery) {assert.ok(document.querySelector(`img[src="${media.src}"]`));assert.ok(imageMap.includes(site.origin+media.src));}
-      if(p.video){const video=graph.find(n=>n['@type']==='VideoObject');assert.equal(video.contentUrl,site.origin+p.video);assert.ok(document.querySelector(`video source[src="${p.video}"]`));assert.ok(videoMap.includes(site.origin+p.video));if(!p.videoUploadDate)assert.ok(!video.uploadDate);}
+      if(p.video){const video=graph.find(n=>n['@type']==='VideoObject');assert.equal(video.contentUrl,site.origin+p.video);assert.ok(document.querySelector(`[data-media-type="video"][data-media-src="${p.video}"][data-media-poster="${p.poster}"]`));assert.ok(videoMap.includes(site.origin+p.video));if(!p.videoUploadDate)assert.ok(!video.uploadDate);}
       assert.ok(llms.includes(site.origin+path));assert.ok(sitemap.includes(site.origin+path));assert.ok(full.includes(p.details));assert.ok(full.includes(p.verificationNote));
       const markdown=await readFile('dist'+path+'index.md','utf8');assert.ok(markdown.includes(p.sourceUrl));
       assert.equal(exported.find(record=>record.slug===p.slug).url,site.origin+path);
