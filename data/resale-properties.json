@@ -372,5 +372,122 @@
         "caption": "Built-in wardrobes beside the bathroom."
       }
     ]
+  },
+  {
+    "slug": "bengaluru-2-bhk-west-facing",
+    "name": "2 BHK West-Facing Resale Apartment",
+    "location": "Kadugodi, Whitefield, Bengaluru, Karnataka",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "type": "apartment",
+    "config": "2 BHK resale apartment",
+    "preferred": "2 BHK",
+    "size": "1,210 sq ft (as shown on supplied floor plan)",
+    "price": "₹99 lakh",
+    "completion": "Resale apartment; availability and handover on request",
+    "image": "/media/resale/bengaluru-2-bhk/living-dining.webp",
+    "imageAlt": "Living and dining area in the supplied Bengaluru resale apartment",
+    "imageNote": "Supplied apartment photograph",
+    "floorPlan": "/media/resale/bengaluru-2-bhk/floor-plan.webp",
+    "video": "/media/resale/bengaluru-2-bhk/walkthrough.mp4",
+    "poster": "/media/resale/bengaluru-2-bhk/video-poster.jpg",
+    "videoDuration": 76.95,
+    "videoNote": "Walkthrough video supplied for this resale apartment.",
+    "sourceUrl": "/media/resale/bengaluru-2-bhk/floor-plan.webp",
+    "sourceLabel": "View the supplied floor plan",
+    "details": "A west-facing 2 BHK resale apartment in Kadugodi, Whitefield, Bengaluru, offered at ₹99 lakh. The supplied floor plan states an area of 1,210 sq ft and shows two bedrooms, two bathrooms, a drawing area, dining area, kitchen, utility and two balconies. Supplied photographs and a walkthrough video show the apartment interiors. Confirm the exact community and locality, area basis, current availability, furnishing inclusions and property documents with Trusted Properties.",
+    "sourceNote": "Price, facing, photographs, floor plan and walkthrough supplied for this resale listing.",
+    "verificationNote": "The floor plan and media were supplied for this listing. Confirm the property identity, exact location, measured area, title documents, approvals, parking allocation and current asking price with Trusted Properties.",
+    "facts": [
+      [
+        "Bedrooms",
+        "2 in supplied floor plan"
+      ],
+      [
+        "Bathrooms",
+        "2 in supplied floor plan"
+      ],
+      [
+        "Facing",
+        "West"
+      ],
+      [
+        "Area",
+        "1,210 sq ft as shown on supplied floor plan"
+      ],
+      [
+        "Balconies",
+        "2 in supplied floor plan"
+      ],
+      [
+        "Floor",
+        "On request"
+      ],
+      [
+        "Furnishing",
+        "On request"
+      ],
+      [
+        "Parking",
+        "On request"
+      ]
+    ],
+    "gallery": [
+      {
+        "src": "/media/resale/bengaluru-2-bhk/living-dining.webp",
+        "alt": "Living and dining area",
+        "caption": "Living and dining area. Supplied apartment photograph."
+      },
+      {
+        "src": "/media/resale/bengaluru-2-bhk/bedroom.webp",
+        "alt": "Bedroom with wardrobe",
+        "caption": "Bedroom with wardrobe. Supplied apartment photograph."
+      },
+      {
+        "src": "/media/resale/bengaluru-2-bhk/bedroom-living.webp",
+        "alt": "Bedroom and adjacent living area",
+        "caption": "Bedroom and adjacent living area. Supplied apartment photograph."
+      },
+      {
+        "src": "/media/resale/bengaluru-2-bhk/bedroom-entry.webp",
+        "alt": "Bedroom viewed from the doorway",
+        "caption": "Bedroom viewed from the doorway. Supplied apartment photograph."
+      },
+      {
+        "src": "/media/resale/bengaluru-2-bhk/bedroom-wide.webp",
+        "alt": "Bedroom with bed and seating",
+        "caption": "Bedroom with bed and seating. Supplied apartment photograph."
+      },
+      {
+        "src": "/media/resale/bengaluru-2-bhk/kitchen.webp",
+        "alt": "Kitchen with fitted cabinetry",
+        "caption": "Kitchen with fitted cabinetry. Supplied apartment photograph."
+      },
+      {
+        "src": "/media/resale/bengaluru-2-bhk/kitchen-balcony.webp",
+        "alt": "Kitchen counter and balcony window",
+        "caption": "Kitchen counter and balcony window. Supplied apartment photograph."
+      },
+      {
+        "src": "/media/resale/bengaluru-2-bhk/dining-kitchen.webp",
+        "alt": "Dining area and kitchen",
+        "caption": "Dining area and kitchen. Supplied apartment photograph."
+      },
+      {
+        "src": "/media/resale/bengaluru-2-bhk/wardrobe.webp",
+        "alt": "Built-in bedroom wardrobe",
+        "caption": "Built-in bedroom wardrobe. Supplied apartment photograph."
+      },
+      {
+        "src": "/media/resale/bengaluru-2-bhk/bedroom-study.webp",
+        "alt": "Bedroom with study area",
+        "caption": "Bedroom with study area. Supplied apartment photograph."
+      },
+      {
+        "src": "/media/resale/bengaluru-2-bhk/floor-plan.webp",
+        "alt": "Supplied floor plan showing two bedrooms, two bathrooms and 1,210 sq ft",
+        "caption": "Supplied floor plan. Confirm the applicable unit and measured area before purchase."
+      }
+    ]
   }
 ]

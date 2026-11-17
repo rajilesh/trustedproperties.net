@@ -36,10 +36,11 @@ Trusted Properties is an independent multi-developer platform, not an official d
 - [ST Bed Koramangala Apartment](https://www.trustedproperties.net/individual-properties/st-bed-koramangala-apartment/): ST Bed, Koramangala · Bengaluru, Karnataka; Brand-new apartment for sale; ₹2.75 Cr.
 - [Furnished 1 BHK for Rent in ST Bed, Koramangala](https://www.trustedproperties.net/individual-properties/st-bed-koramangala-1bhk-rental/): ST Bed, Koramangala · Bengaluru, Karnataka; Brand-new, fully furnished 1 BHK for rent; ₹38,000 per month, including maintenance.
 - [Individual properties data](https://www.trustedproperties.net/data/individual-properties.json): Sourced facts, media and canonical links.
-- [Resale properties](https://www.trustedproperties.net/resale-properties/): Collection of 3 properties.
+- [Resale properties](https://www.trustedproperties.net/resale-properties/): Collection of 4 properties.
 - [Trifecta Esplanade](https://www.trustedproperties.net/resale-properties/trifecta-esplanade/): Belathur Main Road, Belathur, Krishnarajapura · Bengaluru, Karnataka; 2 BHK resale apartment; ₹1.1 Cr.
 - [Uber Verdant](https://www.trustedproperties.net/resale-properties/uber-verdant/): Sarjapura Main Road, Doddakannehalli, Bengaluru – 560035; 2 BHK + 2 bathrooms resale apartment; ₹2 Cr.
 - [Shubh Enclave](https://www.trustedproperties.net/resale-properties/shubh-enclave/): Sarjapur Road, Bengaluru, Karnataka; Luxury 2 BHK top-floor resale apartment; ₹2.47 Cr.
+- [2 BHK West-Facing Resale Apartment](https://www.trustedproperties.net/resale-properties/bengaluru-2-bhk-west-facing/): Kadugodi, Whitefield, Bengaluru, Karnataka; 2 BHK resale apartment; ₹99 lakh.
 - [Resale properties data](https://www.trustedproperties.net/data/resale-properties.json): Sourced facts, media and canonical links.
 - [Plots](https://www.trustedproperties.net/plots/): Collection of 1 properties.
 - [Raaga Homes](https://www.trustedproperties.net/plots/raaga-homes/): Nagappa Reddy Layout, Kagadasapura · Bengaluru; Residential resale plot with an existing 1 BHK house; ₹4.5 crore (negotiable).
