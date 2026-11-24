@@ -89,6 +89,16 @@ body{font-size:16px}h1,h2{letter-spacing:-.035em}h1,h2,h3{overflow-wrap:break-wo
 .umbrella-panel .umbrella-heading{z-index:4}
 @media(max-width:320px){.intro-strip{grid-template-columns:minmax(0,1fr)}.intro-strip>div{border-left:0;padding-left:0}}
 
+.developer-projects-heading {
+  margin-block: clamp(30px, 3.4vw, 48px) clamp(16px, 2vw, 24px);
+  font-family: var(--sans);
+  font-size: clamp(24px, 2.6vw, 34px);
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  text-wrap: balance;
+}
+
 .footer-developer-links {
   display: flex;
   flex-wrap: wrap;

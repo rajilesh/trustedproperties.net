@@ -161,7 +161,7 @@ ${referenceNote}
   `<section class="section detail-page" data-property-developer="${e(developer)}">${breadcrumbs(crumbs)}
   <h1>${e(heading)}</h1><p class="page-lead">${e(description)}</p>
   <div class="page-links"><a href="${developerFilterPath(developer)}">Filter ${e(developer)} properties ↗</a><a href="#enquire">Ask about availability or a site visit ↘</a></div>
-  <h2>${e(developer)} ${e(propertyTypes)}</h2><div class="project-grid">${developerProjects.map(p=>renderProjectCard(p)).join('')}</div>
+  <h2 class="developer-projects-heading">${e(developer)} ${e(propertyTypes)}</h2><div class="project-grid">${developerProjects.map(p=>renderProjectCard(p)).join('')}</div>
   </section><section class="section reading-page"><h2>${e(aboutHeading)}</h2><p>${e(about)}</p>${faqHTML(buyerFaqs)}<p class="source-note">${e(referenceNote)} <a href="${guide.path}">${e(guide.label)} ↗</a></p></section>`,
   [webpage(path,title,description,'CollectionPage',{mainEntity:{'@id':url(path+'#collection')},breadcrumb:{'@id':url(path+'#breadcrumbs')}}),
   itemList(developerProjects,path,heading),breadcrumb(path,crumbs)],{markdown:true});
