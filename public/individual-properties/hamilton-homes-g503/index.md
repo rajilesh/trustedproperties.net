@@ -1,10 +1,10 @@
-# Hamilton Homes by SJR Orme Corp · G503
+# Hamilton Homes by SJR Primecorp
 
 Canonical page: https://www.trustedproperties.net/individual-properties/hamilton-homes-g503/
 
 Collection: Individual properties
 
-Apartment G503 at Hamilton Homes by SJR Orme Corp, at 198, 80 Feet Rd, Gattahalli, Janatha Colony, Bengaluru. The supplied listing details give an area of 960 sq ft and an asking price of ₹87 lakh. The entrance door faces north; the balcony and windows face east. The supplied floor-plan image shows two bedrooms. The owner describes the home as receiving full-day light and airflow.
+Apartment G503 at Hamilton Homes by SJR Primecorp, at 198, 80 Feet Rd, Gattahalli, Janatha Colony, Bengaluru. The supplied listing details give an area of 960 sq ft and an asking price of ₹87 lakh. The entrance door faces north; the balcony and windows face east. The supplied floor-plan image shows two bedrooms. The owner describes the home as receiving full-day light and airflow.
 
 - Location: 198, 80 Feet Rd, Gattahalli, Janatha Colony · Bengaluru, Karnataka 560099
 - Property: 2-bedroom apartment for sale
