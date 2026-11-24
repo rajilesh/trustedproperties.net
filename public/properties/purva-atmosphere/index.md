@@ -2,6 +2,8 @@
 
 Canonical page: https://www.trustedproperties.net/properties/purva-atmosphere/
 
+Purva Atmosphere by Puravankara offers 3 BHK apartments near Manyata Business Park in North Bengaluru. Compare the brochure’s three saleable floor areas and ask the developer to confirm possession and current availability.
+
 - Developer: Puravankara
 - RERA in source: PRM/KA/RERA/1251/472/PR/190204/002350
 - Highlights: 80% open space; Miyawaki forest; Rooftop clubhouse
@@ -23,3 +25,5 @@ Source: Puravankara / Provident channel-partner guide · page 8 — https://www.
 
 
 Enquire: https://www.trustedproperties.net/?project=purva-atmosphere#enquire
+
+[Compare Puravankara projects in Bengaluru](https://www.trustedproperties.net/properties/puravankara/)

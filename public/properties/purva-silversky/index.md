@@ -2,6 +2,8 @@
 
 Canonical page: https://www.trustedproperties.net/properties/purva-silversky/
 
+Purva Silversky by Puravankara offers 3, 3.5 and 4 BHK apartments near Huskur Metro Station in Electronic City Phase 2. The supplied sheet gives layout sizes, guide prices and payment plan options.
+
 - Developer: Puravankara
 - RERA in source: Confirm with developer
 - Highlights: 3 towers · B+G+32 floors; Payment plan: 15:20:20:20:25 or CLP
@@ -23,3 +25,5 @@ Source: Supplied Purva Group South & Central pricing and availability sheet — 
 
 
 Enquire: https://www.trustedproperties.net/?project=purva-silversky#enquire
+
+[Compare Puravankara projects in Bengaluru](https://www.trustedproperties.net/properties/puravankara/)

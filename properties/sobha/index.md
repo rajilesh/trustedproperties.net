@@ -32,3 +32,5 @@ The supplied guide lists SOBHA Insignia as ready to move. Other listings show gu
 Start with an availability or site visit enquiry. Before booking with the developer, request the current cost sheet, payment schedule, applicable Karnataka RERA details and booking terms for the unit or plot.
 
 Information is taken from supplied developer guides and official project sources, linked on each project page. Prices are indicative, availability is unconfirmed, and completion dates may vary by phase. Confirm the latest cost sheet, specifications, approvals and RERA details with the developer.
+
+[SOBHA project guide](https://www.trustedproperties.net/project-guide.pdf)

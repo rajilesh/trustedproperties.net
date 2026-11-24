@@ -1,30 +1,33 @@
+import { developerCollections } from './developer-collections.js';
 import { projects } from './content.js';
 import { renderProjectCard } from './render.js';
 
-const sobhaProjectQueries = new Set([
-  'sobha projects', 'sobha bangalore', 'sobha bengaluru', 'project sobha',
-  'sobha projects bangalore', 'sobha projects bengaluru', 'sobha current projects',
-  'sobha builders', 'sobha builders project', 'about sobha', 'sobha karnataka',
-  'book sobha property',
-]);
-const sobhaApartmentQueries = new Set([
-  'sobha apartments', 'best sobha flat', 'sobha bengaluru apartments',
-  'sobha current apartments', 'flats of sobha', 'book sobha apartment', 'book sobha flat',
-]);
 const normalizeQuery = value => value.toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
+const developerAliases = Object.fromEntries(Object.entries(developerCollections).map(([developer, collection]) => [
+  developer, [developer, ...(collection.searchAliases || [])].map(normalizeQuery).sort((a,b) => b.length-a.length),
+]));
+const developerQueries = new Set([
+  'projects', 'bangalore', 'bengaluru', 'projects bangalore', 'projects bengaluru',
+  'current projects', 'builders', 'builders project', 'karnataka', 'property',
+]);
+const apartmentQueries = new Set([
+  'apartment', 'apartments', 'flat', 'flats', 'bengaluru apartments', 'current apartments',
+]);
 
 export function matchesProjectSearch(project, query) {
   const term = normalizeQuery(query);
   if (!term) return true;
-  if (project.developer === 'SOBHA') {
-    if (sobhaProjectQueries.has(term)) return true;
-    if (sobhaApartmentQueries.has(term)) return project.type === 'apartment';
-    if (term === 'sobha ready to move') return /^ready to move/i.test(project.completion);
-    // Keep neighbourhood and connectivity searches scoped to matching project copy.
-    const place = term.replace(/^sobha /, '');
-    if (place !== term && normalizeQuery(project.overview || '').includes(place)) return true;
-  }
-  return normalizeQuery([project.name,project.alternateName,project.location,project.developer,project.config].join(' ')).includes(term);
+  const fields = normalizeQuery([project.name, project.alternateName, project.location, project.locality, project.developer, project.config].join(' '));
+  const brandedQuery = term.replace(/^(project|about|book|best|flats of) /, '');
+  const brand = developerAliases[project.developer]?.find(alias => brandedQuery === alias || brandedQuery.startsWith(alias+' '));
+  if (!brand) return fields.includes(term);
+  const subject = brandedQuery.slice(brand.length).trim();
+  if (apartmentQueries.has(subject) || term.startsWith('flats of ')) return project.type === 'apartment';
+  if (subject === 'villaments') return project.type === 'villament';
+  if (subject === 'ready to move') return /^ready to move/i.test(project.completion);
+  if (!subject || developerQueries.has(subject)) return true;
+  // Search neighbourhoods and connectivity within the named developer’s projects.
+  return fields.includes(term) || fields.includes(subject) || normalizeQuery(project.overview || '').includes(subject);
 }
 
 export function initListing({home = false} = {}) {
@@ -68,16 +71,16 @@ export function initListing({home = false} = {}) {
         logo.alt=`${developerName} logo`;
         logo.hidden=false;
       }
-      const isSobha = developerName === 'SOBHA';
-      if(heading?.firstChild) heading.firstChild.textContent=isSobha ? 'SOBHA Projects in Bengaluru' : `${developerName} developers.`;
+      const collection = developerCollections[developerName];
+      if(heading?.firstChild) heading.firstChild.textContent=collection ? `${developerName} Projects in Bengaluru` : `${developerName} developers.`;
       if(heading?.querySelector('em')) heading.querySelector('em').hidden=true;
-      const description=`Explore ${developerName} projects in Bengaluru, with locations, configurations, guide prices, amenities and completion information.`;
+      const description=collection?.description || `Explore ${developerName} projects in Bengaluru, with locations, configurations, guide prices, amenities and completion information.`;
       const lead=document.querySelector('#collection-description');
       if(lead){
-        lead.hidden=!isSobha;
-        if(isSobha) lead.textContent='Compare SOBHA apartments and residential plots by neighbourhood, guide price and possession date.';
+        lead.hidden=!collection;
+        if(collection) lead.textContent=description;
       }
-      const title=isSobha ? 'Filter SOBHA Apartments & Plots | Trusted Properties' : `${developerName} Developers in Bengaluru | Trusted Properties`;
+      const title=collection ? `Filter ${developerName} Projects | Trusted Properties` : `${developerName} Developers in Bengaluru | Trusted Properties`;
       document.title=title;
       document.querySelector('meta[property="og:title"]')?.setAttribute('content',title);
       document.querySelector('meta[name="twitter:title"]')?.setAttribute('content',title);

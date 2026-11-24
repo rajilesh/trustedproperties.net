@@ -2,6 +2,8 @@
 
 Canonical page: https://www.trustedproperties.net/properties/purva-heritage/
 
+Purva Heritage by Puravankara offers 2 and 3 BHK flats on the Hosur Road corridor near Kudlu Gate Metro Station. Compare the apartment size ranges, starting guide prices and possession timeline.
+
 - Developer: Puravankara
 - RERA in source: Confirm with developer
 - Highlights: 1 tower · 3B+G+19 floors; Payment plan: CLP
@@ -23,3 +25,5 @@ Source: Supplied Purva Group South & Central pricing and availability sheet — 
 
 
 Enquire: https://www.trustedproperties.net/?project=purva-heritage#enquire
+
+[Compare Puravankara projects in Bengaluru](https://www.trustedproperties.net/properties/puravankara/)

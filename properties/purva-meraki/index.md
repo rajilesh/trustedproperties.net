@@ -2,6 +2,8 @@
 
 Canonical page: https://www.trustedproperties.net/properties/purva-meraki/
 
+Purva Meraki by Puravankara offers 3 and 4 BHK flats on HSR Road in Bengaluru. Compare the listed 3 BHK size range with the larger 4 BHK layout and ask for a current cost sheet.
+
 - Developer: Puravankara
 - RERA in source: PRM/KA/RERA/1251/310/PR/071022/005307
 - Highlights: 3 wings · 2B+G+8 floors; Payment plan: CLP
@@ -23,3 +25,5 @@ Source: Supplied Purva Group South & Central pricing and availability sheet — 
 
 
 Enquire: https://www.trustedproperties.net/?project=purva-meraki#enquire
+
+[Compare Puravankara projects in Bengaluru](https://www.trustedproperties.net/properties/puravankara/)

@@ -2,6 +2,8 @@
 
 Canonical page: https://www.trustedproperties.net/properties/provident-sunworth-city/
 
+Provident Sunworth City by Provident Housing offers 2 and 3 BHK apartments on Mysore Road near Challaghatta Metro Station. Compare standard 3 BHK homes with Grand and Lux layouts, and review the guide possession dates by phase.
+
 - Developer: Provident
 - RERA in source: PRM/KA/RERA/1251/310/PR/170126/008410
 - Highlights: 7 towers · B+S+12 floors; Payment plan: CLP
@@ -23,3 +25,5 @@ Source: Supplied Purva Group South & Central pricing and availability sheet — 
 
 
 Enquire: https://www.trustedproperties.net/?project=provident-sunworth-city#enquire
+
+[Compare Provident projects in Bengaluru](https://www.trustedproperties.net/properties/provident/)

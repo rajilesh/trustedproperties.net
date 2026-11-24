@@ -344,7 +344,9 @@
       "sourceUrl": "/guides/purva-south-central-pricing.jpeg",
       "image": "/media/projects/purva-blubelle.webp",
       "imageNote": "Developer reference · artist’s impression",
-      "url": "https://www.trustedproperties.net/properties/purva-blubelle/"
+      "url": "https://www.trustedproperties.net/properties/purva-blubelle/",
+      "locality": "Magadi Main Road",
+      "overview": "Purva BluBelle by Puravankara offers 3 BHK apartments on Magadi Main Road in Bengaluru. The supplied sheet lists starting prices, apartment sizes and an indicative possession date."
     },
     {
       "id": 12,
@@ -373,7 +375,9 @@
       "sourceUrl": "/guides/purva-south-central-pricing.jpeg",
       "image": "/media/projects/purva-meraki.webp",
       "imageNote": "Developer reference · artist’s impression",
-      "url": "https://www.trustedproperties.net/properties/purva-meraki/"
+      "url": "https://www.trustedproperties.net/properties/purva-meraki/",
+      "locality": "HSR Layout",
+      "overview": "Purva Meraki by Puravankara offers 3 and 4 BHK flats on HSR Road in Bengaluru. Compare the listed 3 BHK size range with the larger 4 BHK layout and ask for a current cost sheet."
     },
     {
       "id": 13,
@@ -403,7 +407,9 @@
       "sourceUrl": "/guides/puravankara-provident.pdf#page=8",
       "image": "/media/projects/purva-atmosphere.webp",
       "imageNote": "Developer reference · artist’s impression",
-      "url": "https://www.trustedproperties.net/properties/purva-atmosphere/"
+      "url": "https://www.trustedproperties.net/properties/purva-atmosphere/",
+      "locality": "North Bengaluru",
+      "overview": "Purva Atmosphere by Puravankara offers 3 BHK apartments near Manyata Business Park in North Bengaluru. Compare the brochure’s three saleable floor areas and ask the developer to confirm possession and current availability."
     },
     {
       "id": 14,
@@ -433,7 +439,9 @@
       "sourceUrl": "/guides/puravankara-provident.pdf#page=17",
       "image": "/media/projects/provident-botanico.webp",
       "imageNote": "Developer reference · artist’s impression",
-      "url": "https://www.trustedproperties.net/properties/provident-botanico/"
+      "url": "https://www.trustedproperties.net/properties/provident-botanico/",
+      "locality": "Whitefield",
+      "overview": "Provident Botanico by Provident Housing offers 2 and 3 BHK apartments on Soukya Road in Whitefield. The project guide lists a 20,000 sq ft clubhouse and landscaped areas with indigenous tree species."
     },
     {
       "id": 15,
@@ -463,7 +471,9 @@
       "sourceUrl": "/guides/puravankara-provident.pdf#page=11",
       "image": "/media/projects/provident-ecopolitan.webp",
       "imageNote": "Developer reference · artist’s impression",
-      "url": "https://www.trustedproperties.net/properties/provident-ecopolitan/"
+      "url": "https://www.trustedproperties.net/properties/provident-ecopolitan/",
+      "locality": "Aerospace Park",
+      "overview": "Provident Ecopolitan by Provident Housing offers 3 and 3.5 BHK apartments in Aerospace Park, North Bengaluru. The guide highlights landscaped areas with indigenous trees and provides an indicative possession date."
     },
     {
       "id": 16,
@@ -493,7 +503,9 @@
       "sourceUrl": "/guides/puravankara-provident.pdf#page=10",
       "image": "/media/projects/provident-deansgate.webp",
       "imageNote": "Developer reference · artist’s impression",
-      "url": "https://www.trustedproperties.net/properties/provident-deansgate/"
+      "url": "https://www.trustedproperties.net/properties/provident-deansgate/",
+      "locality": "IVC Road",
+      "overview": "Provident Deansgate by Provident Housing offers 3 BHK villaments on IVC Road in North Bengaluru. Compare the garden and terrace homes and ask which layouts are currently available."
     },
     {
       "id": 17,
@@ -522,7 +534,9 @@
       "sourceUrl": "/guides/purva-south-central-pricing.jpeg",
       "image": "/media/projects/provident-sunworth-city.webp",
       "imageNote": "Developer reference · artist’s impression",
-      "url": "https://www.trustedproperties.net/properties/provident-sunworth-city/"
+      "url": "https://www.trustedproperties.net/properties/provident-sunworth-city/",
+      "locality": "Mysore Road",
+      "overview": "Provident Sunworth City by Provident Housing offers 2 and 3 BHK apartments on Mysore Road near Challaghatta Metro Station. Compare standard 3 BHK homes with Grand and Lux layouts, and review the guide possession dates by phase."
     },
     {
       "id": 18,
@@ -559,7 +573,9 @@
           "label": "Supplied DNR Arista brochure · profile p. 5, specifications pp. 6–7, amenities p. 12, layouts pp. 18–33, RERA p. 35",
           "url": "/guides/dnr-arista-brochure.pdf"
         }
-      ]
+      ],
+      "locality": "Bellandur",
+      "overview": "DNR Arista by DNR Group offers 2, 3 and 4 BHK apartments on Bellandur Main Road, off the Marathahalli–Sarjapur Outer Ring Road. The brochure lists selected terrace layouts and the Phase 2 cost sheet gives examples for 3 and 4 BHK flats."
     },
     {
       "id": 19,
@@ -586,7 +602,9 @@
       "highlights": [
         "3 towers · B+G+32 floors",
         "Payment plan: 15:20:20:20:25 or CLP"
-      ]
+      ],
+      "locality": "Electronic City",
+      "overview": "Purva Silversky by Puravankara offers 3, 3.5 and 4 BHK apartments near Huskur Metro Station in Electronic City Phase 2. The supplied sheet gives layout sizes, guide prices and payment plan options."
     },
     {
       "id": 20,
@@ -613,7 +631,9 @@
       "highlights": [
         "1 tower · 2B+G+24 floors",
         "Payment plan: CLP"
-      ]
+      ],
+      "locality": "Lalbagh Main Road",
+      "overview": "Purva Orient Grand by Puravankara is an apartment project on Lalbagh Main Road in Bengaluru. The supplied sheet lists 3 and 4 BHK configurations, with pricing and sizes supplied for 4 BHK homes."
     },
     {
       "id": 21,
@@ -640,7 +660,9 @@
       "highlights": [
         "1 tower · 3B+G+19 floors",
         "Payment plan: CLP"
-      ]
+      ],
+      "locality": "Kudlu Gate",
+      "overview": "Purva Heritage by Puravankara offers 2 and 3 BHK flats on the Hosur Road corridor near Kudlu Gate Metro Station. Compare the apartment size ranges, starting guide prices and possession timeline."
     }
   ]
 }

@@ -1,7 +1,8 @@
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { dirname } from 'node:path';
 import { projects, developers, enquiryDevelopers, captions, films } from '../src/content.js';
-import { site, faqs, filmDescriptions, sobhaCollectionPath } from '../src/site.js';
+import { site, faqs, filmDescriptions } from '../src/site.js';
+import { developerCollections } from '../src/developer-collections.js';
 import { escapeHtml as e, renderProjectCard, projectPath, renderFilters } from '../src/render.js';
 import { googleAdsHead } from '../src/tracking.js';
 import { generateListings } from './generate-listings.mjs';
@@ -28,6 +29,9 @@ const organization = {
 };
 const website = {'@type':'WebSite','@id':url('/#website'),url:url('/'),name:site.name,inLanguage:'en-IN',publisher:{'@id':organization['@id']}};
 const service = {'@type':'Service','@id':url('/#property-enquiry'),name:'Bengaluru property enquiry assistance',serviceType:'Residential property information and enquiry assistance',provider:{'@id':organization['@id']},areaServed:{'@type':'City',name:'Bengaluru'},url:url('/#enquire')};
+const developerCollectionEntries = Object.entries(developerCollections);
+const developerFilterPath = developer => `/properties/?developer=${encodeURIComponent(developer)}`;
+const developerHeading = developer => `${developer} Projects in Bengaluru`;
 const homeTitle = 'Bengaluru Homes from Trusted Developers | Trusted Properties';
 const pages = [];
 function breadcrumb(path, items) { return {'@type':'BreadcrumbList','@id':url(path+'#breadcrumbs'),itemListElement:items.map(([name,path],i)=>({'@type':'ListItem',position:i+1,name,item:url(path)}))}; }
@@ -94,17 +98,17 @@ const developerDescriptions = {
 };
 const developerImages = {'SOBHA':'/media/photo-01.webp','Puravankara':'/media/projects/purva-blubelle.webp','Provident':'/media/projects/provident-botanico.webp','DNR Group':'/media/projects/dnr-arista.jpg'};
 const heroItems = [
- ...developers.map(name=>({name,image:developerImages[name] || '/media/photo-01.webp',href:name==='SOBHA' ? sobhaCollectionPath : `/properties/?developer=${encodeURIComponent(name)}`,alt:`${name} property collection`,cta:`Explore ${name}`})),
+ ...developers.map(name=>({name,image:developerImages[name] || '/media/photo-01.webp',href:developerCollections[name]?.path || developerFilterPath(name),alt:`${name} property collection`,cta:`Explore ${name}`})),
  {name:'Tenant finding & rentals',image:'/media/tenant-finding-rentals.webp',href:'/rental/',alt:'Trusted Properties tenant finding and property rental assistance',cta:'Explore rentals',service:true},
  {name:'Sale & purchase assistance',image:'/media/sale-purchase-assistance.webp',href:'/contact/',alt:'Trusted Properties property sale and purchase assistance',cta:'Contact us',service:true},
 ];
 const heroSlides = heroItems.map((item,index)=>`<a class="hero-slide${index===0?' active':''}${item.service?' hero-service-slide':''}" data-hero-slide="${index}" data-hero-name="${e(item.name)}" data-hero-cta="${e(item.cta)}" href="${item.href}" aria-label="${e(item.cta)}"${index===0?'':' hidden'}><img src="${item.image}" alt="${e(item.alt)}" fetchpriority="${index===0?'high':'auto'}"/><span>${e(item.name)}</span></a>`).join('');
 const heroDots = heroItems.map((item,index)=>`<button type="button" data-hero-to="${index}" aria-label="Show ${e(item.name)}" aria-pressed="${index===0}"></button>`).join('');
 const featuredDevelopers = [
-  {name:'SOBHA', logo:'/media/developer-logos/sobha.png', rank:'1st', href:sobhaCollectionPath},
-  {name:'Puravankara', logo:'/media/developer-logos/puravankara.png', rank:'2nd', href:'/properties/?developer=Puravankara'},
-  {name:'Provident', logo:'/media/developer-logos/provident.png', rank:'3rd', href:'/properties/?developer=Provident'},
-  {name:'DNR Group', logo:'/media/developer-logos/dnr.png', rank:'4th', href:'/properties/?developer=DNR%20Group'},
+  {name:'SOBHA', logo:'/media/developer-logos/sobha.png', rank:'1st', href:developerCollections['SOBHA'].path},
+  {name:'Puravankara', logo:'/media/developer-logos/puravankara.png', rank:'2nd', href:developerCollections['Puravankara'].path},
+  {name:'Provident', logo:'/media/developer-logos/provident.png', rank:'3rd', href:developerCollections['Provident'].path},
+  {name:'DNR Group', logo:'/media/developer-logos/dnr.png', rank:'4th', href:developerCollections['DNR Group'].path},
 ];
 const comingSoonDevelopers = [
   {name:'Prestige Group', logo:'/media/developer-logos/prestige.png', rank:'6th'},
@@ -120,66 +124,74 @@ const collectionPath='/properties/';
 const collectionTitle='Bengaluru Properties: Compare Developers & Homes | Trusted Properties';
 const collectionDescription=`Compare ${projects.length} properties from ${developers.join(', ')}. Explore locations, configurations, guide prices, amenities and completion information.`;
 const collectionCrumbs=[['Home','/'],['Bengaluru properties',collectionPath]];
-await page(collectionPath,collectionTitle,collectionDescription,`<section class="section detail-page">${breadcrumbs(collectionCrumbs)}<div class="eyebrow">THE BENGALURU COLLECTION</div><h1 id="collection-title">Different developers.<br><em>Your kind of home.</em></h1><p class="page-lead" id="collection-description">${e(collectionDescription)}</p>${renderFilters(projects,true)}<p class="project-count" id="project-count" aria-live="polite">${projects.length} properties</p><div class="project-grid" id="project-grid">${projects.map(p=>renderProjectCard(p)).join('')}</div><div class="page-links"><a href="${sobhaCollectionPath}">SOBHA apartments and plots in Bengaluru</a><a href="/faqs/">Questions about pricing and configurations?</a><a href="/#enquire">Request current details ↗</a></div></section>`,[webpage(collectionPath,collectionTitle,collectionDescription,'CollectionPage',{mainEntity:{'@id':url(collectionPath+'#collection')},breadcrumb:{'@id':url(collectionPath+'#breadcrumbs')}}),itemList(projects,collectionPath),breadcrumb(collectionPath,collectionCrumbs)],{markdown:true});
+await page(collectionPath,collectionTitle,collectionDescription,`<section class="section detail-page">${breadcrumbs(collectionCrumbs)}<div class="eyebrow">THE BENGALURU COLLECTION</div><h1 id="collection-title">Different developers.<br><em>Your kind of home.</em></h1><p class="page-lead" id="collection-description">${e(collectionDescription)}</p>${renderFilters(projects,true)}<p class="project-count" id="project-count" aria-live="polite">${projects.length} properties</p><div class="project-grid" id="project-grid">${projects.map(p=>renderProjectCard(p)).join('')}</div><div class="page-links">${developerCollectionEntries.map(([developer, {path}])=>`<a href="${path}">${e(developer)} projects in Bengaluru</a>`).join('')}<a href="/faqs/">Questions about pricing and configurations?</a><a href="/#enquire">Request current details ↗</a></div></section>`,[webpage(collectionPath,collectionTitle,collectionDescription,'CollectionPage',{mainEntity:{'@id':url(collectionPath+'#collection')},breadcrumb:{'@id':url(collectionPath+'#breadcrumbs')}}),itemList(projects,collectionPath),breadcrumb(collectionPath,collectionCrumbs)],{markdown:true});
 
-const sobhaProjects = projects.filter(p => p.developer === 'SOBHA');
-const sobhaHeading = 'SOBHA Projects in Bengaluru';
-const sobhaTitle = 'SOBHA Bangalore Projects | Apartments & Plots | Trusted Properties';
-const sobhaDescription = 'Compare SOBHA apartments and residential plots in Bengaluru, Karnataka. Browse localities, BHK layouts, guide prices, possession timelines and site visit enquiries.';
-const sobhaCrumbs = [...collectionCrumbs, [sobhaHeading, sobhaCollectionPath]];
-const sobhaFaqs = [
- {question:'How do I choose the best SOBHA flat for me?', answer:'Start with your preferred neighbourhood, budget, BHK and move-in date. Compare floor areas and guide prices, then ask for the unit-specific floor plan and total cost sheet.'},
- {question:'Where can I check ready-to-move, ongoing and upcoming SOBHA projects?', answer:'The supplied guide lists SOBHA Insignia as ready to move. Other listings show guide completion dates, including phase-wise possession where available. Ask SOBHA for current inventory, construction progress and upcoming launches.'},
- {question:'How do I book a SOBHA apartment or plot?', answer:'Start with an availability or site visit enquiry. Before booking with the developer, request the current cost sheet, payment schedule, applicable Karnataka RERA details and booking terms for the unit or plot.'},
-];
-const sobhaAbout = 'SOBHA is the developer of the apartments and plotted communities on this page. The collection covers Greater Whitefield and Panathur in East Bengaluru, HSR Layout and the Hosur and Bannerghatta Road corridors, plus plotted developments off Rajanakunte and in Chikka Tirupati.';
-const sobhaOverview = `# ${sobhaHeading}
+const developerOverviews = [];
+for (const [developer, collection] of developerCollectionEntries) {
+ const {path, title, description, propertyTypes, bookingType, about, availability, guide} = collection;
+ const developerProjects = projects.filter(p => p.developer === developer);
+ const heading = developerHeading(developer);
+ const crumbs = [...collectionCrumbs, [heading, path]];
+ const aboutHeading = `About ${developer} and its Bangalore projects`;
+ const buyerFaqs = [
+  {question:`How do I choose the best ${developer} flat for me?`, answer:'Start with your preferred neighbourhood, budget, BHK and move-in date. Compare floor areas and guide prices, then ask for the unit-specific floor plan and total cost sheet.'},
+  {question:`Where can I check ready-to-move, ongoing and upcoming ${developer} projects?`, answer:availability},
+  {question:`How do I book a ${developer} ${bookingType}?`, answer:'Start with an availability or site visit enquiry. Before booking with the developer, request the current cost sheet, payment schedule, applicable Karnataka RERA details and booking terms for the unit or plot.'},
+ ];
+ const overview = `# ${heading}
 
-Canonical page: ${url(sobhaCollectionPath)}
+Canonical page: ${url(path)}
 
-${sobhaDescription}
+${description}
 
-## About SOBHA and its Bangalore projects
+## ${aboutHeading}
 
-${sobhaAbout}
+${about}
 
-${sobhaProjects.map(p => `- [${p.name}](${url(projectPath(p))}): ${p.location}. ${p.config}; ${p.price} (${p.priceNote}). Guide completion: ${p.completion}.`).join('\n')}
+${developerProjects.map(p => `- [${p.name}](${url(projectPath(p))}): ${p.location}. ${p.config}; ${p.price} (${p.priceNote}). Guide completion: ${p.completion}.`).join('\n')}
 
-${sobhaFaqs.map(({question, answer}) => `## ${question}\n\n${answer}`).join('\n\n')}
+${buyerFaqs.map(({question, answer}) => `## ${question}\n\n${answer}`).join('\n\n')}
 
 ${referenceNote}
+
+[${guide.label}](${url(guide.path)})
 `;
-await page(sobhaCollectionPath,sobhaTitle,sobhaDescription,
- `<section class="section detail-page" data-property-developer="SOBHA">${breadcrumbs(sobhaCrumbs)}
- <h1>${e(sobhaHeading)}</h1><p class="page-lead">${e(sobhaDescription)}</p>
- <div class="page-links"><a href="/properties/?developer=SOBHA">Filter SOBHA properties ↗</a><a href="#enquire">Ask about availability or a site visit ↘</a></div>
- <h2>SOBHA apartments and residential plots</h2><div class="project-grid">${sobhaProjects.map(p=>renderProjectCard(p)).join('')}</div>
- </section><section class="section reading-page"><h2>About SOBHA and its Bangalore projects</h2><p>${e(sobhaAbout)}</p>${faqHTML(sobhaFaqs)}<p class="source-note">${e(referenceNote)} <a href="/project-guide.pdf">SOBHA project guide ↗</a></p></section>`,
- [webpage(sobhaCollectionPath,sobhaTitle,sobhaDescription,'CollectionPage',{mainEntity:{'@id':url(sobhaCollectionPath+'#collection')},breadcrumb:{'@id':url(sobhaCollectionPath+'#breadcrumbs')}}),
- itemList(sobhaProjects,sobhaCollectionPath,sobhaHeading),breadcrumb(sobhaCollectionPath,sobhaCrumbs)],{markdown:true});
-await save(`public${sobhaCollectionPath}index.md`,sobhaOverview);
+ await page(path,title,description,
+  `<section class="section detail-page" data-property-developer="${e(developer)}">${breadcrumbs(crumbs)}
+  <h1>${e(heading)}</h1><p class="page-lead">${e(description)}</p>
+  <div class="page-links"><a href="${developerFilterPath(developer)}">Filter ${e(developer)} properties ↗</a><a href="#enquire">Ask about availability or a site visit ↘</a></div>
+  <h2>${e(developer)} ${e(propertyTypes)}</h2><div class="project-grid">${developerProjects.map(p=>renderProjectCard(p)).join('')}</div>
+  </section><section class="section reading-page"><h2>${e(aboutHeading)}</h2><p>${e(about)}</p>${faqHTML(buyerFaqs)}<p class="source-note">${e(referenceNote)} <a href="${guide.path}">${e(guide.label)} ↗</a></p></section>`,
+  [webpage(path,title,description,'CollectionPage',{mainEntity:{'@id':url(path+'#collection')},breadcrumb:{'@id':url(path+'#breadcrumbs')}}),
+  itemList(developerProjects,path,heading),breadcrumb(path,crumbs)],{markdown:true});
+ await save(`public${path}index.md`,overview);
+ developerOverviews.push(overview);
+}
 
 for(const p of projects){
  const reference = {'@type':'CreativeWork',name:p.sourceLabel,url:url(p.sourceUrl)};
  const kind=({apartment:'Flats',plot:'Plots',villament:'Villaments',villa:'Villas'})[p.type];
- const isSobha = p.developer === 'SOBHA';
+ const developerCollection = developerCollections[p.developer];
  const path = projectPath(p);
  const projectName = p.alternateName || p.name;
- const title = isSobha && p.locality
+ const title = p.locality
   ? `${projectName} ${p.type === 'apartment' ? 'Apartments' : kind}, ${p.locality} | Trusted Properties`
   : `${p.name} ${kind} for Sale, Bangalore | Trusted Properties`;
- const description = isSobha && p.locality
-  ? `Explore ${projectName}, ${p.locality}, Bengaluru. ${p.config}. Compare guide prices, sizes and possession details, and enquire about site visits.`
+ const developerCredit = projectName.startsWith(p.developer+' ') ? '' : ` by ${p.developer}`;
+ const description = p.locality
+  ? `${projectName}${developerCredit} in ${p.locality}, Bengaluru. ${p.config}. Compare guide prices, sizes and possession details.`
   : `Explore ${p.name}, ${p.location}: ${p.config}. Compare guide prices, sizes and project details; contact Trusted Properties for availability and site visits.`;
- const crumbs=[...(isSobha ? sobhaCrumbs : collectionCrumbs),[p.name,path]];
+ const crumbs = [...collectionCrumbs];
+ if (developerCollection) crumbs.push([developerHeading(p.developer),developerCollection.path]);
+ crumbs.push([p.name,path]);
  const projectImage=p.image || '/media/photo-01.webp';
  const projectImageAlt=p.image ? p.name+' developer reference' : 'Illustrative residential reference';
  const projectEntity={'@type':p.type==='apartment'?'ApartmentComplex':'Place','@id':url(path+'#property'),name:p.name,...(p.alternateName ? {alternateName:p.alternateName} : {}),url:url(path),image:[url(projectImage)],description:`${p.overview ? p.overview+' ' : ''}${p.config}; ${p.size}; ${p.area}; ${p.units}. ${p.details}`,address:{'@type':'PostalAddress',addressLocality:'Bengaluru',addressRegion:'Karnataka',addressCountry:'IN'},additionalProperty:[{'@type':'PropertyValue',name:'Location in project guide',value:p.location},{'@type':'PropertyValue',name:'Configuration',value:p.config},{'@type':'PropertyValue',name:'Size range in project guide',value:p.size},{'@type':'PropertyValue',name:'Guide completion',value:p.completion}]};
  const related=projects.filter(other=>other.id!==p.id&&(other.type===p.type||other.region===p.region)).slice(0,3);
  const propertyVisualSections = p.slug==='sobha-one-world' ? `<section class="section gallery-section" id="gallery"><div class="section-heading"><div><div class="eyebrow">THE ART OF EVERYDAY LIVING</div><h2>Picture your <em>possibilities.</em></h2></div><div class="gallery-controls" data-js-only hidden><button id="gallery-prev" class="circle-outline" aria-label="Previous images">←</button><button id="gallery-next" class="circle-outline" aria-label="Next images">→</button></div></div><div class="gallery-track" id="gallery-track">${galleryHTML}</div></section><section class="films section" id="films"><div class="section-heading"><div><div class="eyebrow">A FEEL FOR WHAT’S NEXT</div><h2>Step inside. <br><em>Stay a little longer.</em></h2></div><p>Explore the architecture, landscapes and details <br>through our collection of property films.</p></div><div class="featured-film"><img src="/media/film-06.jpg" alt="An architectural entrance with sculptural canopy" loading="lazy"/><div class="film-overlay"><span>THE PROPERTY FILM COLLECTION</span><h3>A new way to <br>come home.</h3><a class="button light" href="/films/film-06/" data-film="6">Watch the film <span>▶</span></a></div><span class="film-index">06 / 08</span></div><div class="film-grid" id="film-grid">${filmCards(true)}</div></section>` : '';
- const content=`<section class="section detail-page" data-property-developer="${e(p.developer)}">${breadcrumbs(crumbs)}<div class="eyebrow">${e(p.developer)} / ${e(p.region.toUpperCase())} BENGALURU · ${e(p.type.toUpperCase())}</div><h1>${e(p.name)}</h1><p class="page-lead">${p.overview ? e(p.overview) : `${e(p.config)} at ${e(p.location)}.`}</p><figure class="detail-project-image"><img src="${e(p.image || '/media/photo-01.webp')}" alt="${e(p.image ? p.name+' developer reference' : 'Illustrative residential reference')}"/><figcaption>${e(p.imageNote || 'Illustrative reference · not project-specific')}</figcaption></figure><div class="project-detail-layout"><article><h2>Project at a glance</h2><dl class="property-facts">${[['Developer',p.developer],['Location',p.location],['Configurations',p.config],['Size range',p.size],['Community area',p.area],['Number of homes or plots',p.units],['Guide completion',p.completion],['RERA in source',p.rera]].map(([k,v])=>`<div><dt>${e(k)}</dt><dd>${e(v)}</dd></div>`).join('')}</dl>${p.highlights.length?`<h2>What makes it stand out</h2><ul class="amenity-list">${p.highlights.map(h=>`<li>${e(h)}</li>`).join('')}</ul>`:''}<h2>Prices and configurations</h2>${p.details.split('\n\n').map(paragraph=>`<p>${e(paragraph)}</p>`).join('\n\n')}<h2>Location and project timeline</h2><p>${e(p.name)} is listed at ${e(p.location)}. The source lists its completion or possession status as: ${e(p.completion)}. Timelines and available configurations should be confirmed for the specific phase or unit you are considering.</p><h2>Before choosing your ${p.type==='plot'?'plot':'home'}</h2><p>Request the latest itemised cost sheet, current availability and applicable plans. Compare the listed size with the area definitions in the developer’s documents. Check the relevant approvals and RERA registration details directly with the developer.</p><p class="source-note">${e(referenceNote)} <a href="${e(p.sourceUrl)}">${e(p.sourceLabel)} ↗</a></p>${(p.additionalSources || []).map(source=>`<p class="source-note"><a href="${e(source.url)}">${e(source.label)} ↗</a></p>`).join('')}</article><aside class="project-enquiry-card"><div class="eyebrow">INDICATIVE GUIDE PRICE</div><strong>${e(p.price)}</strong><p>${e(p.priceNote)}. Current pricing and availability must be confirmed.</p><a class="button" href="/?project=${p.slug}#enquire">Request project details <span>↗</span></a><a href="/faqs/">Have a question? Read our FAQs.</a></aside></div><section class="related-projects"><div class="eyebrow">CONTINUE EXPLORING</div><h2>Other places to call home.</h2>${isSobha ? `<div class="page-links"><a href="${sobhaCollectionPath}">Compare all SOBHA apartments and plots ↗</a></div>` : ''}<div class="project-grid">${related.map(p=>renderProjectCard(p)).join('')}</div></section></section>${propertyVisualSections}`;
+ const content=`<section class="section detail-page" data-property-developer="${e(p.developer)}">${breadcrumbs(crumbs)}<div class="eyebrow">${e(p.developer)} / ${e(p.region.toUpperCase())} BENGALURU · ${e(p.type.toUpperCase())}</div><h1>${e(p.name)}</h1><p class="page-lead">${p.overview ? e(p.overview) : `${e(p.config)} at ${e(p.location)}.`}</p><figure class="detail-project-image"><img src="${e(p.image || '/media/photo-01.webp')}" alt="${e(p.image ? p.name+' developer reference' : 'Illustrative residential reference')}"/><figcaption>${e(p.imageNote || 'Illustrative reference · not project-specific')}</figcaption></figure><div class="project-detail-layout"><article><h2>Project at a glance</h2><dl class="property-facts">${[['Developer',p.developer],['Location',p.location],['Configurations',p.config],['Size range',p.size],['Community area',p.area],['Number of homes or plots',p.units],['Guide completion',p.completion],['RERA in source',p.rera]].map(([k,v])=>`<div><dt>${e(k)}</dt><dd>${e(v)}</dd></div>`).join('')}</dl>${p.highlights.length?`<h2>What makes it stand out</h2><ul class="amenity-list">${p.highlights.map(h=>`<li>${e(h)}</li>`).join('')}</ul>`:''}<h2>Prices and configurations</h2>${p.details.split('\n\n').map(paragraph=>`<p>${e(paragraph)}</p>`).join('\n\n')}<h2>Location and project timeline</h2><p>${e(p.name)} is listed at ${e(p.location)}. The source lists its completion or possession status as: ${e(p.completion)}. Timelines and available configurations should be confirmed for the specific phase or unit you are considering.</p><h2>Before choosing your ${p.type==='plot'?'plot':'home'}</h2><p>Request the latest itemised cost sheet, current availability and applicable plans. Compare the listed size with the area definitions in the developer’s documents. Check the relevant approvals and RERA registration details directly with the developer.</p><p class="source-note">${e(referenceNote)} <a href="${e(p.sourceUrl)}">${e(p.sourceLabel)} ↗</a></p>${(p.additionalSources || []).map(source=>`<p class="source-note"><a href="${e(source.url)}">${e(source.label)} ↗</a></p>`).join('')}</article><aside class="project-enquiry-card"><div class="eyebrow">INDICATIVE GUIDE PRICE</div><strong>${e(p.price)}</strong><p>${e(p.priceNote)}. Current pricing and availability must be confirmed.</p><a class="button" href="/?project=${p.slug}#enquire">Request project details <span>↗</span></a><a href="/faqs/">Have a question? Read our FAQs.</a></aside></div><section class="related-projects"><div class="eyebrow">CONTINUE EXPLORING</div><h2>Other places to call home.</h2>${developerCollection ? `<div class="page-links"><a href="${developerCollection.path}">Compare ${e(p.developer)} ${e(developerCollection.propertyTypes)} ↗</a></div>` : ''}<div class="project-grid">${related.map(p=>renderProjectCard(p)).join('')}</div></section></section>${propertyVisualSections}`;
  await page(path,title,description,content,[webpage(path,title,description,'RealEstateListing',{mainEntity:{'@id':projectEntity['@id']},breadcrumb:{'@id':url(path+'#breadcrumbs')},citation:reference}),projectEntity,breadcrumb(path,crumbs),{'@type':'ImageObject','@id':url(path+'#image'),contentUrl:url(projectImage),name:projectImageAlt,caption:p.imageNote || 'Illustrative reference · not project-specific'}],{markdown:true,image:projectImage,imageAlt:projectImageAlt});
- await save(`public${path}index.md`,`# ${p.name}\n\nCanonical page: ${url(path)}\n\n${p.overview ? p.overview+'\n\n' : ''}- Developer: ${p.developer}\n- RERA in source: ${p.rera}\n- Highlights: ${p.highlights.join('; ')}\n- Location: ${p.location}\n- Configuration: ${p.config}\n- Size range: ${p.size}\n- Community area: ${p.area}\n- Homes or plots: ${p.units}\n- Guide completion: ${p.completion}\n- Guide price: ${p.price} (${p.priceNote})\n\n## Prices and configurations\n\n${p.details}\n\n${referenceNote}\n\nSource: ${p.sourceLabel} — ${url(p.sourceUrl)}\n${(p.additionalSources || []).map(source=>`Additional source: ${source.label} — ${url(source.url)}`).join('\n')}\n\nEnquire: ${url('/?project='+p.slug+'#enquire')}\n${isSobha ? `\n[Compare SOBHA projects in Bengaluru](${url(sobhaCollectionPath)})\n` : ''}`);
+ await save(`public${path}index.md`,`# ${p.name}\n\nCanonical page: ${url(path)}\n\n${p.overview ? p.overview+'\n\n' : ''}- Developer: ${p.developer}\n- RERA in source: ${p.rera}\n- Highlights: ${p.highlights.join('; ')}\n- Location: ${p.location}\n- Configuration: ${p.config}\n- Size range: ${p.size}\n- Community area: ${p.area}\n- Homes or plots: ${p.units}\n- Guide completion: ${p.completion}\n- Guide price: ${p.price} (${p.priceNote})\n\n## Prices and configurations\n\n${p.details}\n\n${referenceNote}\n\nSource: ${p.sourceLabel} — ${url(p.sourceUrl)}\n${(p.additionalSources || []).map(source=>`Additional source: ${source.label} — ${url(source.url)}`).join('\n')}\n\nEnquire: ${url('/?project='+p.slug+'#enquire')}\n${developerCollection ? `\n[Compare ${p.developer} projects in Bengaluru](${url(developerCollection.path)})\n` : ''}`);
 }
 
 const faqPath='/faqs/',faqTitle='Bengaluru Property FAQs | Trusted Properties',faqDescription='Answers about multi-developer project prices, configurations, residential plots, completion timelines, illustrative media and property enquiries in Bengaluru.';
@@ -228,10 +240,10 @@ for (const preview of ['media/preview.html','Trusted-Properties/trusted-properti
 }
 const markdownProjects=await Promise.all(projects.map(p=>readFile(`public${projectPath(p)}index.md`,'utf8')));
 const markdownFAQs=faqs.map(f=>`## ${f.question}\n\n${f.answer}`).join('\n\n');
-await save('public/llms.txt',`# Trusted Properties\n\n> Bengaluru property information and enquiry website covering ${projects.length} properties from SOBHA, Puravankara, Provident and DNR Group.\n\nTrusted Properties is an independent multi-developer platform, not an official developer website. All prices and completion dates are indicative information from the linked project sources, not live quotations or verified inventory. Visuals are illustrative.\n\n## Main pages\n\n- [Home](${url('/')}): Overview, imagery and enquiry form.\n- [All Bengaluru properties](${url('/properties/')}): Compare every listed project.\n- [SOBHA projects in Bengaluru](${url(sobhaCollectionPath)}): Apartments and plots, guide prices, possession timelines and booking enquiries.\n- [Property FAQs](${url('/faqs/')}): Pricing, configurations, plots, timelines and enquiry information.\n- [Property films](${url('/films/')}): Eight supplied reference videos.\n\n## Project guides\n\n${projects.map(p=>`- [${p.name}](${url(projectPath(p))}): ${p.location}; ${p.config}; ${p.price} (${p.priceNote}).`).join('\n')}\n\n## Source and text versions\n\n- [Source project guide](${url('/project-guide.pdf')}): Supplied SOBHA reference; current details must be confirmed.\n- [Full text collection](${url('/llms-full.txt')}): Project facts and FAQ answers in one file.\n- [Project data](${url('/data/projects.json')}): Machine-readable facts and canonical links.\n- [Home in Markdown](${url('/index.md')}): Text version of the overview.\n- [Privacy notice](${url('/privacy/')}): Form data and contact consent.\n\nProject pages also have Markdown versions at their canonical directory URL followed by index.md. These text versions describe the same facts available to visitors.\n`);
+await save('public/llms.txt',`# Trusted Properties\n\n> Bengaluru property information and enquiry website covering ${projects.length} properties from SOBHA, Puravankara, Provident and DNR Group.\n\nTrusted Properties is an independent multi-developer platform, not an official developer website. All prices and completion dates are indicative information from the linked project sources, not live quotations or verified inventory. Visuals are illustrative.\n\n## Main pages\n\n- [Home](${url('/')}): Overview, imagery and enquiry form.\n- [All Bengaluru properties](${url('/properties/')}): Compare every listed project.\n${developerCollectionEntries.map(([developer, {path,description}])=>`- [${developer} projects in Bengaluru](${url(path)}): ${description}`).join('\n')}\n- [Property FAQs](${url('/faqs/')}): Pricing, configurations, plots, timelines and enquiry information.\n- [Property films](${url('/films/')}): Eight supplied reference videos.\n\n## Project guides\n\n${projects.map(p=>`- [${p.name}](${url(projectPath(p))}): ${p.location}; ${p.config}; ${p.price} (${p.priceNote}).`).join('\n')}\n\n## Source and text versions\n\n- [Source project guide](${url('/project-guide.pdf')}): Supplied SOBHA reference; current details must be confirmed.\n- [Full text collection](${url('/llms-full.txt')}): Project facts and FAQ answers in one file.\n- [Project data](${url('/data/projects.json')}): Machine-readable facts and canonical links.\n- [Home in Markdown](${url('/index.md')}): Text version of the overview.\n- [Privacy notice](${url('/privacy/')}): Form data and contact consent.\n\nProject pages also have Markdown versions at their canonical directory URL followed by index.md. These text versions describe the same facts available to visitors.\n`);
 const overview=`# Trusted Properties — multi-developer homes and plots in Bengaluru\n\n${site.description}\n\nTrusted Properties is an independent multi-developer platform, not an official developer website. ${referenceNote}\n\n${projects.map(p=>`- [${p.name}](${url(projectPath(p))}): ${p.location}. ${p.config}; ${p.size}; ${p.price} (${p.priceNote}).`).join('\n')}\n\n[Property FAQs](${url('/faqs/')}) · [Films](${url('/films/')}) · [Enquire](${url('/#enquire')})\n`;
 await save('public/index.md',overview);await save('public/properties/index.md',overview);await save('public/faqs/index.md',`# Property FAQs\n\n${markdownFAQs}\n`);
-await save('public/llms-full.txt',`${overview}\n\n${sobhaOverview}\n\n${markdownProjects.join('\n\n')}\n\n# Property FAQs\n\n${markdownFAQs}\n\n# Films\n\n${films.map((f,i)=>`## ${f[0]}\n\n${filmDescriptions[i]}\n\nWatch: ${url(filmPath(i+1))}`).join('\n\n')}\n`);
+await save('public/llms-full.txt',`${overview}\n\n${developerOverviews.join('\n\n')}\n\n${markdownProjects.join('\n\n')}\n\n# Property FAQs\n\n${markdownFAQs}\n\n# Films\n\n${films.map((f,i)=>`## ${f[0]}\n\n${filmDescriptions[i]}\n\nWatch: ${url(filmPath(i+1))}`).join('\n\n')}\n`);
 await save('public/data/projects.json',JSON.stringify({sources:[...new Set(projects.map(p=>url(p.sourceUrl)))],disclaimer:referenceNote,projects:projects.map(p=>({...p,url:url(projectPath(p))}))},null,2)+'\n');
 const listingGuide = `\n## Individual, resale and plot listings\n\n${Object.entries(propertyCatalogs).map(([collection,records])=>`- [${propertyCollections[collection].name}](${url(propertyCollections[collection].path)}): Collection of ${records.length} properties.\n${records.map(p=>`- [${p.name}](${url(propertyPath(p,collection))}): ${p.location}; ${p.config}; ${p.price}.`).join('\n')}\n- [${propertyCollections[collection].name} data](${url('/data/'+collection+'-properties.json')}): Sourced facts, media and canonical links.`).join('\n')}\n\nThese listings use supplied photographs, plans or renderings labelled on each page. Prices and availability require confirmation. Each listing has a Markdown version at its canonical directory followed by index.md.\n`;
 await save('public/llms.txt',(await readFile('public/llms.txt','utf8'))+listingGuide);

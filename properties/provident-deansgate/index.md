@@ -2,6 +2,8 @@
 
 Canonical page: https://www.trustedproperties.net/properties/provident-deansgate/
 
+Provident Deansgate by Provident Housing offers 3 BHK villaments on IVC Road in North Bengaluru. Compare the garden and terrace homes and ask which layouts are currently available.
+
 - Developer: Provident
 - RERA in source: PRM/KA/RERA/1250/303/PR/170325/007590
 - Highlights: Garden and terrace homes; 25+ recreational experiences; Approx. 12,000 sq ft clubhouse
@@ -23,3 +25,5 @@ Source: Puravankara / Provident channel-partner guide · page 10 — https://www
 
 
 Enquire: https://www.trustedproperties.net/?project=provident-deansgate#enquire
+
+[Compare Provident projects in Bengaluru](https://www.trustedproperties.net/properties/provident/)

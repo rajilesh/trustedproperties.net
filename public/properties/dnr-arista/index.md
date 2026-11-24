@@ -2,6 +2,8 @@
 
 Canonical page: https://www.trustedproperties.net/properties/dnr-arista/
 
+DNR Arista by DNR Group offers 2, 3 and 4 BHK apartments on Bellandur Main Road, off the Marathahalli–Sarjapur Outer Ring Road. The brochure lists selected terrace layouts and the Phase 2 cost sheet gives examples for 3 and 4 BHK flats.
+
 - Developer: DNR Group
 - RERA in source: PRM/KA/RERA/1251/446/PR/240306/006662
 - Highlights: 30,000 sq ft clubhouse & amenities; 8 blocks · 2B + S + 13 floors; Swimming pool, gym, badminton & squash courts; Pet park, jogging track & children’s play area
@@ -31,3 +33,5 @@ Source: Supplied DNR Arista Phase 2 general cost sheet · April 2026 — https:/
 Additional source: Supplied DNR Arista brochure · profile p. 5, specifications pp. 6–7, amenities p. 12, layouts pp. 18–33, RERA p. 35 — https://www.trustedproperties.net/guides/dnr-arista-brochure.pdf
 
 Enquire: https://www.trustedproperties.net/?project=dnr-arista#enquire
+
+[Compare DNR Group projects in Bengaluru](https://www.trustedproperties.net/properties/dnr-group/)

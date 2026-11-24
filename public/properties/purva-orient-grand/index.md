@@ -2,6 +2,8 @@
 
 Canonical page: https://www.trustedproperties.net/properties/purva-orient-grand/
 
+Purva Orient Grand by Puravankara is an apartment project on Lalbagh Main Road in Bengaluru. The supplied sheet lists 3 and 4 BHK configurations, with pricing and sizes supplied for 4 BHK homes.
+
 - Developer: Puravankara
 - RERA in source: Confirm with developer
 - Highlights: 1 tower · 2B+G+24 floors; Payment plan: CLP
@@ -23,3 +25,5 @@ Source: Supplied Purva Group South & Central pricing and availability sheet — 
 
 
 Enquire: https://www.trustedproperties.net/?project=purva-orient-grand#enquire
+
+[Compare Puravankara projects in Bengaluru](https://www.trustedproperties.net/properties/puravankara/)

@@ -8,7 +8,10 @@ Trusted Properties is an independent multi-developer platform, not an official d
 
 - [Home](https://www.trustedproperties.net/): Overview, imagery and enquiry form.
 - [All Bengaluru properties](https://www.trustedproperties.net/properties/): Compare every listed project.
-- [SOBHA projects in Bengaluru](https://www.trustedproperties.net/properties/sobha/): Apartments and plots, guide prices, possession timelines and booking enquiries.
+- [SOBHA projects in Bengaluru](https://www.trustedproperties.net/properties/sobha/): Compare SOBHA apartments and residential plots in Bengaluru, Karnataka. Browse localities, BHK layouts, guide prices, possession timelines and site visit enquiries.
+- [Puravankara projects in Bengaluru](https://www.trustedproperties.net/properties/puravankara/): Compare Puravankara apartments in Bengaluru, Karnataka, by neighbourhood, BHK, guide price and possession date. Enquire about Purva flats and site visits.
+- [Provident projects in Bengaluru](https://www.trustedproperties.net/properties/provident/): Compare Provident Housing apartments and villaments in Bengaluru, Karnataka. Browse Whitefield, Aerospace Park, IVC Road and Mysore Road projects.
+- [DNR Group projects in Bengaluru](https://www.trustedproperties.net/properties/dnr-group/): Explore DNR Group’s DNR Arista apartments in Bellandur, Bengaluru. Compare 2, 3 and 4 BHK layouts, Phase 2 guide prices and site visit enquiries.
 - [Property FAQs](https://www.trustedproperties.net/faqs/): Pricing, configurations, plots, timelines and enquiry information.
 - [Property films](https://www.trustedproperties.net/films/): Eight supplied reference videos.
 

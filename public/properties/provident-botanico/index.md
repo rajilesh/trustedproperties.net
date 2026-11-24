@@ -2,6 +2,8 @@
 
 Canonical page: https://www.trustedproperties.net/properties/provident-botanico/
 
+Provident Botanico by Provident Housing offers 2 and 3 BHK apartments on Soukya Road in Whitefield. The project guide lists a 20,000 sq ft clubhouse and landscaped areas with indigenous tree species.
+
 - Developer: Provident
 - RERA in source: PRM/KA/RERA/1250/304/PR/210324/006726
 - Highlights: 40+ lifestyle amenities; 20,000 sq ft clubhouse; 30+ indigenous tree species
@@ -23,3 +25,5 @@ Source: Puravankara / Provident channel-partner guide · page 17 — https://www
 
 
 Enquire: https://www.trustedproperties.net/?project=provident-botanico#enquire
+
+[Compare Provident projects in Bengaluru](https://www.trustedproperties.net/properties/provident/)

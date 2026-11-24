@@ -2,6 +2,8 @@
 
 Canonical page: https://www.trustedproperties.net/properties/provident-ecopolitan/
 
+Provident Ecopolitan by Provident Housing offers 3 and 3.5 BHK apartments in Aerospace Park, North Bengaluru. The guide highlights landscaped areas with indigenous trees and provides an indicative possession date.
+
 - Developer: Provident
 - RERA in source: PRM/KA/RERA/1251/309/PR/311224/007334
 - Highlights: 30+ lifestyle amenities; 45+ indigenous tree species; Sustainable materials
@@ -23,3 +25,5 @@ Source: Puravankara / Provident channel-partner guide · page 11 — https://www
 
 
 Enquire: https://www.trustedproperties.net/?project=provident-ecopolitan#enquire
+
+[Compare Provident projects in Bengaluru](https://www.trustedproperties.net/properties/provident/)

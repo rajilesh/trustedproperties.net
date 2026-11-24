@@ -2,6 +2,8 @@
 
 Canonical page: https://www.trustedproperties.net/properties/purva-blubelle/
 
+Purva BluBelle by Puravankara offers 3 BHK apartments on Magadi Main Road in Bengaluru. The supplied sheet lists starting prices, apartment sizes and an indicative possession date.
+
 - Developer: Puravankara
 - RERA in source: PRM/KA/RERA/1251/310/PR/290323/005829
 - Highlights: 2 towers · 2B+G+31/32 floors; Payment plan: CLP
@@ -23,3 +25,5 @@ Source: Supplied Purva Group South & Central pricing and availability sheet — 
 
 
 Enquire: https://www.trustedproperties.net/?project=purva-blubelle#enquire
+
+[Compare Puravankara projects in Bengaluru](https://www.trustedproperties.net/properties/puravankara/)
