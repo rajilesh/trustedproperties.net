@@ -24,7 +24,9 @@ test('all generated indexable pages have unique metadata, canonical URLs, H1s an
  assert.equal(indexable.length,projects.length+films.length+7+Object.keys(developerCollections).length+guides.length+Object.values(propertyCatalogs).reduce((n,records)=>n+1+records.length,0));const titles=new Set(),canonicals=new Set(),descriptions=new Set();
  for(const {file,doc} of indexable){
   assert.equal(doc.querySelectorAll('h1').length,1,file);assert.equal(doc.querySelectorAll('head > title').length,1,file);
-  const title=doc.title,canonical=doc.querySelector('link[rel="canonical"]').getAttribute('href');
+   const footerLinks = [...doc.querySelectorAll('footer nav[aria-label="Developer projects"] a')];
+  assert.deepEqual(footerLinks.map(a=>a.getAttribute('href')),Object.values(developerCollections).map(({path})=>path),file);
+ const title=doc.title,canonical=doc.querySelector('link[rel="canonical"]').getAttribute('href');
   const description=doc.querySelector('meta[name="description"]').getAttribute('content');
   assert.ok(title&&description&&canonical.startsWith(origin),file);assert.ok(!titles.has(title),`Duplicate title: ${title}`);assert.ok(!descriptions.has(description),`Duplicate description: ${description}`);assert.ok(!canonicals.has(canonical),`Duplicate canonical: ${canonical}`);
   titles.add(title);descriptions.add(description);canonicals.add(canonical);
