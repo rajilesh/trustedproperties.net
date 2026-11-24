@@ -1,5 +1,32 @@
 import { projects } from './content.js';
 import { renderProjectCard } from './render.js';
+
+const sobhaProjectQueries = new Set([
+  'sobha projects', 'sobha bangalore', 'sobha bengaluru', 'project sobha',
+  'sobha projects bangalore', 'sobha projects bengaluru', 'sobha current projects',
+  'sobha builders', 'sobha builders project', 'about sobha', 'sobha karnataka',
+  'book sobha property',
+]);
+const sobhaApartmentQueries = new Set([
+  'sobha apartments', 'best sobha flat', 'sobha bengaluru apartments',
+  'sobha current apartments', 'flats of sobha', 'book sobha apartment', 'book sobha flat',
+]);
+const normalizeQuery = value => value.toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
+
+export function matchesProjectSearch(project, query) {
+  const term = normalizeQuery(query);
+  if (!term) return true;
+  if (project.developer === 'SOBHA') {
+    if (sobhaProjectQueries.has(term)) return true;
+    if (sobhaApartmentQueries.has(term)) return project.type === 'apartment';
+    if (term === 'sobha ready to move') return /^ready to move/i.test(project.completion);
+    // Keep neighbourhood and connectivity searches scoped to matching project copy.
+    const place = term.replace(/^sobha /, '');
+    if (place !== term && normalizeQuery(project.overview || '').includes(place)) return true;
+  }
+  return normalizeQuery([project.name,project.alternateName,project.location,project.developer,project.config].join(' ')).includes(term);
+}
+
 export function initListing({home = false} = {}) {
   const grid = document.querySelector('#project-grid');
   if (!grid) return;
@@ -41,12 +68,16 @@ export function initListing({home = false} = {}) {
         logo.alt=`${developerName} logo`;
         logo.hidden=false;
       }
-      if(heading?.firstChild) heading.firstChild.textContent=`${developerName} developers.`;
+      const isSobha = developerName === 'SOBHA';
+      if(heading?.firstChild) heading.firstChild.textContent=isSobha ? 'SOBHA Projects in Bengaluru' : `${developerName} developers.`;
       if(heading?.querySelector('em')) heading.querySelector('em').hidden=true;
       const description=`Explore ${developerName} projects in Bengaluru, with locations, configurations, guide prices, amenities and completion information.`;
       const lead=document.querySelector('#collection-description');
-      if(lead) lead.hidden=true;
-      const title=`${developerName} Developers in Bengaluru | Trusted Properties`;
+      if(lead){
+        lead.hidden=!isSobha;
+        if(isSobha) lead.textContent='Compare SOBHA apartments and residential plots by neighbourhood, guide price and possession date.';
+      }
+      const title=isSobha ? 'Filter SOBHA Apartments & Plots | Trusted Properties' : `${developerName} Developers in Bengaluru | Trusted Properties`;
       document.title=title;
       document.querySelector('meta[property="og:title"]')?.setAttribute('content',title);
       document.querySelector('meta[name="twitter:title"]')?.setAttribute('content',title);
@@ -59,8 +90,7 @@ export function initListing({home = false} = {}) {
   const featured = [1,11,14,18,12,16];
   const ordered = home ? [...projects].sort((a,b)=>(featured.includes(a.id)?featured.indexOf(a.id):100+a.id)-(featured.includes(b.id)?featured.indexOf(b.id):100+b.id)) : projects;
   function render() {
-    const term=search.value.trim().toLowerCase();
-    const matches=ordered.filter(p=>(fields.developer.value==='all'||p.developer===fields.developer.value)&&(fields.location.value==='all'||p.region===fields.location.value)&&(fields.type.value==='all'||p.type===fields.type.value)&&(!term||[p.name,p.location,p.developer,p.config].join(' ').toLowerCase().includes(term)));
+    const matches=ordered.filter(p=>(fields.developer.value==='all'||p.developer===fields.developer.value)&&(fields.location.value==='all'||p.region===fields.location.value)&&(fields.type.value==='all'||p.type===fields.type.value)&&matchesProjectSearch(p,search.value));
     const visible=expanded?matches:matches.slice(0,6);
     document.querySelector('#project-count').textContent=`${matches.length} ${matches.length===1?'property':'properties'}${visible.length<matches.length?` · Showing ${visible.length}`:''}`;
     grid.innerHTML=visible.length?visible.map(p=>renderProjectCard(p,home)).join(''):'<div class="empty-state"><h3>No matching properties</h3><p>Try a different search or reset the filters to explore the collection.</p></div>';

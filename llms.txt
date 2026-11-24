@@ -8,6 +8,7 @@ Trusted Properties is an independent multi-developer platform, not an official d
 
 - [Home](https://www.trustedproperties.net/): Overview, imagery and enquiry form.
 - [All Bengaluru properties](https://www.trustedproperties.net/properties/): Compare every listed project.
+- [SOBHA projects in Bengaluru](https://www.trustedproperties.net/properties/sobha/): Apartments and plots, guide prices, possession timelines and booking enquiries.
 - [Property FAQs](https://www.trustedproperties.net/faqs/): Pricing, configurations, plots, timelines and enquiry information.
 - [Property films](https://www.trustedproperties.net/films/): Eight supplied reference videos.
 

@@ -2,6 +2,8 @@
 
 Canonical page: https://www.trustedproperties.net/properties/sobha-neopolis/
 
+SOBHA Neopolis is an apartment project off Panathur Road in East Bengaluru. Compare the 1, 3 and 4 BHK flats, basic and approximate inclusive guide prices, and possession dates by phase.
+
 - Developer: SOBHA
 - RERA in source: Confirm applicable phase with developer
 - Highlights: Launch listed: October 2023; Basic guide rate: ₹14,300 / sq ft; Floors in guide: 2B+G+18
@@ -23,3 +25,5 @@ Source: Supplied Bangalore All Project Details · SOBHA · page 1 — https://ww
 
 
 Enquire: https://www.trustedproperties.net/?project=sobha-neopolis#enquire
+
+[Compare SOBHA projects in Bengaluru](https://www.trustedproperties.net/properties/sobha/)

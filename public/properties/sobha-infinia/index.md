@@ -2,6 +2,8 @@
 
 Canonical page: https://www.trustedproperties.net/properties/sobha-infinia/
 
+SOBHA Infinia offers 3 and 4 BHK apartments in HSR Layout, Bengaluru. The guide lists multiple apartment sizes, including select layouts with a domestic-help room.
+
 - Developer: SOBHA
 - RERA in source: Confirm applicable phase with developer
 - Highlights: Launch listed: September 2024; Basic guide rate: ₹20,333 / sq ft; Floors in guide: 2B+G+13
@@ -23,3 +25,5 @@ Source: Supplied Bangalore All Project Details · SOBHA · page 1 — https://ww
 
 
 Enquire: https://www.trustedproperties.net/?project=sobha-infinia#enquire
+
+[Compare SOBHA projects in Bengaluru](https://www.trustedproperties.net/properties/sobha/)

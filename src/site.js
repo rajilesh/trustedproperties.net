@@ -1,3 +1,5 @@
+export const sobhaCollectionPath = '/properties/sobha/';
+
 export const site = {
   // Match the GitHub Pages custom domain in CNAME; the apex currently drops URL paths.
   origin: 'https://www.trustedproperties.net',

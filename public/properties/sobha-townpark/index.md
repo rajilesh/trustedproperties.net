@@ -2,6 +2,8 @@
 
 Canonical page: https://www.trustedproperties.net/properties/sobha-townpark/
 
+SOBHA Townpark is an apartment development on Hosur Main Road that includes SOBHA Hamptons and SOBHA Madison Heights. Compare 2, 3 and 4 BHK flat sizes, guide prices and possession dates for each phase.
+
 - Developer: SOBHA
 - RERA in source: Confirm applicable phase with developer
 - Highlights: Launch listed: February 2024; Basic guide rate: ₹13,555 / sq ft; Floors in guide: 2B+G+41
@@ -23,3 +25,5 @@ Source: Supplied Bangalore All Project Details · SOBHA · page 1 — https://ww
 
 
 Enquire: https://www.trustedproperties.net/?project=sobha-townpark#enquire
+
+[Compare SOBHA projects in Bengaluru](https://www.trustedproperties.net/properties/sobha/)

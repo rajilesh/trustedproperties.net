@@ -5,7 +5,8 @@ import { join } from 'node:path';
 import { parseHTML } from 'linkedom';
 import { XMLParser, XMLValidator } from 'fast-xml-parser';
 import { projects, films, captions } from '../src/content.js';
-import { site, faqs } from '../src/site.js';
+import { site, faqs, sobhaCollectionPath } from '../src/site.js';
+import { matchesProjectSearch } from '../src/listing.js';
 import { propertyCatalogs } from '../src/property-content.js';
 import guides from '../data/search-guides.json' with { type: 'json' };
 const origin = site.origin;
@@ -19,7 +20,7 @@ const schemas=doc=>JSON.parse(doc.querySelector('script[type="application/ld+jso
 const normalize=s=>s.replace(/\s+/g,' ').trim();
 
 test('all generated indexable pages have unique metadata, canonical URLs, H1s and parseable JSON-LD',()=>{
- assert.equal(indexable.length,projects.length+films.length+7+guides.length+Object.values(propertyCatalogs).reduce((n,records)=>n+1+records.length,0));const titles=new Set(),canonicals=new Set(),descriptions=new Set();
+ assert.equal(indexable.length,projects.length+films.length+8+guides.length+Object.values(propertyCatalogs).reduce((n,records)=>n+1+records.length,0));const titles=new Set(),canonicals=new Set(),descriptions=new Set();
  for(const {file,doc} of indexable){
   assert.equal(doc.querySelectorAll('h1').length,1,file);assert.equal(doc.querySelectorAll('head > title').length,1,file);
   const title=doc.title,canonical=doc.querySelector('link[rel="canonical"]').getAttribute('href');
@@ -141,5 +142,35 @@ test('canonical host matches deployment and every authored guide is built and di
 
 test('each project retains its own source, developer and images',()=>{
  for(const p of projects){const {doc}=indexable.find(x=>x.file===`dist/properties/${p.slug}/index.html`);const page=schemas(doc).find(n=>n['@type']==='RealEstateListing');assert.equal(page.citation.url,new URL(p.sourceUrl,origin).href);assert.ok(doc.body.textContent.includes(p.developer));assert.ok(doc.querySelector(`a[href="${p.sourceUrl}"]`));}
- const {doc}=indexable.find(x=>x.file==='dist/index.html');for(const developer of new Set(projects.map(p=>p.developer))) assert.ok(doc.querySelector(`a[href="/properties/?developer=${encodeURIComponent(developer)}"]`),developer);assert.equal(doc.querySelector('.brand-logo').getAttribute('src'),'/media/logo.svg');
+ const {doc}=indexable.find(x=>x.file==='dist/index.html');for(const developer of new Set(projects.map(p=>p.developer))) assert.ok(doc.querySelector(`a[href="${developer==='SOBHA' ? sobhaCollectionPath : `/properties/?developer=${encodeURIComponent(developer)}`}"]`),developer);assert.equal(doc.querySelector('.brand-logo').getAttribute('src'),'/media/logo.svg');
+});
+
+test('SOBHA discovery page and text exports cover the same sourced projects', async () => {
+ const sobhaProjects = projects.filter(p => p.developer === 'SOBHA');
+ const {doc} = indexable.find(x => x.file === `dist${sobhaCollectionPath}index.html`);
+ const projectUrls = sobhaProjects.map(p => `${origin}/properties/${p.slug}/`);
+ const cardUrls = [...doc.querySelectorAll('.project-card h3 a')].map(a => new URL(a.getAttribute('href'),origin).href);
+ assert.deepEqual(cardUrls,projectUrls);
+ assert.deepEqual(schemas(doc).find(node => node['@type'] === 'ItemList').itemListElement.map(item => item.url),projectUrls);
+ assert.ok(doc.querySelector('a[href="/properties/?developer=SOBHA"]'));
+ const [llms,fullText,collectionText] = await Promise.all([read('llms.txt'),read('llms-full.txt'),read('properties/sobha/index.md')]);
+ assert.ok(llms.includes(origin+sobhaCollectionPath));
+ for (const p of sobhaProjects) {
+  const path = `/properties/${p.slug}/`;
+  const {doc: projectDoc} = indexable.find(x => x.file === `dist${path}index.html`);
+  assert.ok(projectDoc.querySelector(`a[href="${sobhaCollectionPath}"]`));
+  assert.ok(collectionText.includes(origin+path));
+  assert.ok(projectDoc.querySelector('.page-lead').textContent.includes(p.overview));
+  assert.ok(fullText.includes(p.overview));
+ }
+});
+
+test('SOBHA search aliases respect project, locality, property type and guide status', () => {
+ const search = term => projects.filter(p => matchesProjectSearch(p,term)).map(p => p.slug);
+ for (const term of ['Sobha OneWorld','Sobha one world','Sobha KR Puram','Sobha Kadugodi']) {
+  assert.deepEqual(search(term),['sobha-one-world']);
+ }
+ assert.deepEqual(search('Sobha ready to move'),['sobha-insignia']);
+ assert.deepEqual(search('Sobha projects Bangalore'),projects.filter(p => p.developer === 'SOBHA').map(p => p.slug));
+ assert.deepEqual(search('Book Sobha flat'),projects.filter(p => p.developer === 'SOBHA' && p.type === 'apartment').map(p => p.slug));
 });

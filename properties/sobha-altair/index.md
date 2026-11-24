@@ -2,6 +2,8 @@
 
 Canonical page: https://www.trustedproperties.net/properties/sobha-altair/
 
+SOBHA Altair offers 3 and 4 BHK apartments off Sarjapur Road, beside SOBHA Royal Pavilion. The project guide compares Luxe and Grande floor areas and starting prices for each configuration.
+
 - Developer: SOBHA
 - RERA in source: Confirm applicable phase with developer
 - Highlights: Launch listed: February 2026; Basic guide rate: ₹16,888 / sq ft; Floors in guide: 3B+G+18
@@ -23,3 +25,5 @@ Source: Supplied Bangalore All Project Details · SOBHA · page 1 — https://ww
 
 
 Enquire: https://www.trustedproperties.net/?project=sobha-altair#enquire
+
+[Compare SOBHA projects in Bengaluru](https://www.trustedproperties.net/properties/sobha/)

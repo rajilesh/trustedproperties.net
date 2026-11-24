@@ -2,6 +2,8 @@
 
 Canonical page: https://www.trustedproperties.net/properties/sobha-sacred-grove/
 
+SOBHA Sacred Grove is a residential plotted development in Chikka Tirupati. Compare plot sizes and guide rates per square foot before asking for a plot-specific cost sheet.
+
 - Developer: SOBHA
 - RERA in source: Confirm applicable phase with developer
 - Highlights: Launch listed: April 2026; Basic guide rate: ₹7,122 / sq ft; Residential plotted development
@@ -23,3 +25,5 @@ Source: Supplied Bangalore All Project Details · SOBHA · page 1 — https://ww
 
 
 Enquire: https://www.trustedproperties.net/?project=sobha-sacred-grove#enquire
+
+[Compare SOBHA projects in Bengaluru](https://www.trustedproperties.net/properties/sobha/)

@@ -2,6 +2,8 @@
 
 Canonical page: https://www.trustedproperties.net/properties/sobha-insignia/
 
+SOBHA Insignia offers 3.5 BHK apartments off Outer Ring Road, behind Embassy Tech Village. The supplied guide lists the project as ready to move. Confirm current availability and possession documents before arranging a site visit.
+
 - Developer: SOBHA
 - RERA in source: Confirm applicable phase with developer
 - Highlights: Launch listed: September 2022; Basic guide rate: ₹15,389 / sq ft; Floors in guide: 2B+G+08
@@ -23,3 +25,5 @@ Source: Supplied Bangalore All Project Details · SOBHA · page 1 — https://ww
 
 
 Enquire: https://www.trustedproperties.net/?project=sobha-insignia#enquire
+
+[Compare SOBHA projects in Bengaluru](https://www.trustedproperties.net/properties/sobha/)

@@ -2,6 +2,8 @@
 
 Canonical page: https://www.trustedproperties.net/properties/sobha-ayana/
 
+SOBHA Ayana features 3 BHK apartments on Panathur Road in East Bengaluru. Compare the super built-up area range and the guide’s basic and approximate inclusive prices before requesting a current cost sheet.
+
 - Developer: SOBHA
 - RERA in source: Confirm applicable phase with developer
 - Highlights: Launch listed: September 2024; Basic guide rate: ₹14,100 / sq ft; Floors in guide: 2B+G+14
@@ -23,3 +25,5 @@ Source: Supplied Bangalore All Project Details · SOBHA · page 1 — https://ww
 
 
 Enquire: https://www.trustedproperties.net/?project=sobha-ayana#enquire
+
+[Compare SOBHA projects in Bengaluru](https://www.trustedproperties.net/properties/sobha/)

@@ -1,6 +1,7 @@
 https://trustedproperties.net/* https://www.trustedproperties.net/:splat 301
 /index.html / 301
 /properties/index.html /properties/ 301
+/properties/sobha/index.html /properties/sobha/ 301
 /properties/sobha-one-world/index.html /properties/sobha-one-world/ 301
 /properties/sobha-altair/index.html /properties/sobha-altair/ 301
 /properties/sobha-neopolis/index.html /properties/sobha-neopolis/ 301

@@ -2,6 +2,8 @@
 
 Canonical page: https://www.trustedproperties.net/properties/sobha-one-world/
 
+SOBHA OneWorld (SOBHA One World) is an apartment township on Old Madras Road in Greater Whitefield, near Hoskote Toll Plaza. The developer highlights road connections to KR Puram and access to the Whitefield (Kadugodi) metro station in the wider area. Compare 1, 2, 3 and 4 BHK Luxe and Grande layouts, guide prices and phase-wise possession dates.
+
 - Developer: SOBHA
 - RERA in source: Confirm applicable phase with developer
 - Highlights: Launch listed: June 2026; Basic guide rate: ₹13,555 / sq ft; Floors in guide: 3B+G+1+46
@@ -20,6 +22,8 @@ Canonical page: https://www.trustedproperties.net/properties/sobha-one-world/
 Information is taken from supplied developer guides and official project sources, linked on each project page. Prices are indicative, availability is unconfirmed, and completion dates may vary by phase. Confirm the latest cost sheet, specifications, approvals and RERA details with the developer.
 
 Source: Supplied Bangalore All Project Details · SOBHA · page 1 — https://www.trustedproperties.net/project-guide.pdf
-
+Additional source: SOBHA OneWorld developer project page — https://www.sobha.com/sobha-oneworld-greater-whitefield/
 
 Enquire: https://www.trustedproperties.net/?project=sobha-one-world#enquire
+
+[Compare SOBHA projects in Bengaluru](https://www.trustedproperties.net/properties/sobha/)

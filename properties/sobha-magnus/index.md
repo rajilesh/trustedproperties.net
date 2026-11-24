@@ -2,6 +2,8 @@
 
 Canonical page: https://www.trustedproperties.net/properties/sobha-magnus/
 
+SOBHA Magnus offers 2, 3 and 4 BHK apartments on Bannerghatta Road, behind Meenakshi Temple. The guide lists starting prices for 3 and 4 BHK flats and the 2 BHK floor area. Ask for a current 2 BHK cost sheet.
+
 - Developer: SOBHA
 - RERA in source: Confirm applicable phase with developer
 - Highlights: Launch listed: October 2025; Basic guide rate: ₹16,666 / sq ft; Floors in guide: 2B+G+9
@@ -23,3 +25,5 @@ Source: Supplied Bangalore All Project Details · SOBHA · page 1 — https://ww
 
 
 Enquire: https://www.trustedproperties.net/?project=sobha-magnus#enquire
+
+[Compare SOBHA projects in Bengaluru](https://www.trustedproperties.net/properties/sobha/)

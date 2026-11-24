@@ -2,6 +2,8 @@
 
 Canonical page: https://www.trustedproperties.net/properties/sobha-chartered-birdsong/
 
+SOBHA Chartered Birdsong is a residential plot project off Rajanakunte in North Bengaluru. The guide lists standard plots from 1,200 to 3,000 sq ft and some irregular sizes.
+
 - Developer: SOBHA
 - RERA in source: Confirm applicable phase with developer
 - Highlights: Launch listed: March 2025; Basic guide rate: ₹7,999 / sq ft; Residential plotted development
@@ -23,3 +25,5 @@ Source: Supplied Bangalore All Project Details · SOBHA · page 1 — https://ww
 
 
 Enquire: https://www.trustedproperties.net/?project=sobha-chartered-birdsong#enquire
+
+[Compare SOBHA projects in Bengaluru](https://www.trustedproperties.net/properties/sobha/)

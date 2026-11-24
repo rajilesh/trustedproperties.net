@@ -2,6 +2,7 @@ import { defineConfig } from 'vite';
 import { projects, films } from './src/content.js';
 import { propertyCatalogs } from './src/property-content.js';
 import { propertyCollections, propertyPath } from './src/property-catalog.js';
+import { sobhaCollectionPath } from './src/site.js';
 import { resolve } from 'node:path';
 import guides from './data/search-guides.json' with { type: 'json' };
 export default defineConfig({
@@ -10,6 +11,7 @@ export default defineConfig({
     rollupOptions: {
       input: [
         'index.html', '404.html', 'properties/index.html', 'faqs/index.html', 'films/index.html', 'privacy/index.html', 'contact/index.html', 'rental/index.html',
+        `${sobhaCollectionPath.slice(1)}index.html`,
         ...Object.entries(propertyCatalogs).flatMap(([collection,records])=>[
           `${propertyCollections[collection].path.slice(1)}index.html`,
           ...records.map(p=>`${propertyPath(p,collection).slice(1)}index.html`),
