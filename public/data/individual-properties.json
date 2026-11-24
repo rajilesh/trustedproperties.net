@@ -239,5 +239,114 @@
     "videoDuration": 29.208333,
     "videoNote": "Walkthrough of the furnished 1 BHK and its balcony.",
     "url": "https://www.trustedproperties.net/individual-properties/st-bed-koramangala-1bhk-rental/"
+  },
+  {
+    "slug": "hamilton-homes-g503",
+    "name": "Hamilton Homes by SJR Orme Corp · G503",
+    "location": "198, 80 Feet Rd, Gattahalli, Janatha Colony · Bengaluru, Karnataka 560099",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "type": "apartment",
+    "config": "2-bedroom apartment for sale",
+    "preferred": "2 BHK",
+    "size": "960 sq ft (as supplied)",
+    "price": "₹87 lakh",
+    "completion": "Availability and handover status on request",
+    "image": "/media/individual/hamilton-homes-g503/living-room.jpg",
+    "imageAlt": "Furnished living room with balcony doors at apartment G503, Hamilton Homes",
+    "imageNote": "Property photograph supplied with the listing.",
+    "sourceUrl": "/media/individual/hamilton-homes-g503/walkthrough.mp4",
+    "sourceLabel": "Supplied property walkthrough video",
+    "details": "Apartment G503 at Hamilton Homes by SJR Orme Corp, at 198, 80 Feet Rd, Gattahalli, Janatha Colony, Bengaluru. The supplied listing details give an area of 960 sq ft and an asking price of ₹87 lakh. The entrance door faces north; the balcony and windows face east. The supplied floor-plan image shows two bedrooms. The owner describes the home as receiving full-day light and airflow.",
+    "verificationNote": "Name, unit number, address, area, asking price and facing details were supplied with this listing. The two-bedroom description is based on the supplied floor-plan image. Confirm the area basis, floor-plan applicability, current availability, inclusions and property documents with Trusted Properties.",
+    "facts": [
+      [
+        "Apartment",
+        "G503"
+      ],
+      [
+        "Door facing",
+        "North"
+      ],
+      [
+        "Balcony and windows",
+        "East-facing"
+      ],
+      [
+        "Natural light and airflow",
+        "Full-day light and airflow (as described by owner)"
+      ],
+      [
+        "Asking price",
+        "₹87 lakh"
+      ]
+    ],
+    "gallery": [
+      {
+        "src": "/media/individual/hamilton-homes-g503/kitchen-detail.jpg",
+        "alt": "Fitted kitchen with dark counters and east-facing window",
+        "caption": "Fitted kitchen and window. Photo supplied with the listing."
+      },
+      {
+        "src": "/media/individual/hamilton-homes-g503/kitchen-dining.jpg",
+        "alt": "Kitchen and dining area with fitted cabinetry",
+        "caption": "Kitchen and dining area. Photo supplied with the listing."
+      },
+      {
+        "src": "/media/individual/hamilton-homes-g503/bedroom.jpg",
+        "alt": "Furnished bedroom",
+        "caption": "Bedroom. Photo supplied with the listing."
+      },
+      {
+        "src": "/media/individual/hamilton-homes-g503/living-area.jpg",
+        "alt": "Living area with seating and balcony-side window",
+        "caption": "Living area. Photo supplied with the listing."
+      },
+      {
+        "src": "/media/individual/hamilton-homes-g503/wardrobe.jpg",
+        "alt": "Bedroom wardrobe and storage",
+        "caption": "Bedroom wardrobe. Photo supplied with the listing."
+      },
+      {
+        "src": "/media/individual/hamilton-homes-g503/kitchen-island.jpg",
+        "alt": "Fitted kitchen island and counter",
+        "caption": "Kitchen island and counter. Photo supplied with the listing."
+      },
+      {
+        "src": "/media/individual/hamilton-homes-g503/kitchen.jpg",
+        "alt": "Kitchen with fitted cabinets, appliances and window",
+        "caption": "Kitchen. Photo supplied with the listing."
+      },
+      {
+        "src": "/media/individual/hamilton-homes-g503/interior-view.jpg",
+        "alt": "View through the furnished apartment interior",
+        "caption": "Interior view. Photo supplied with the listing."
+      },
+      {
+        "src": "/media/individual/hamilton-homes-g503/balcony.jpg",
+        "alt": "East-facing apartment balcony with plants",
+        "caption": "Balcony. Photo supplied with the listing."
+      },
+      {
+        "src": "/media/individual/hamilton-homes-g503/bathroom.jpg",
+        "alt": "Tiled bathroom with shower, basin and water heater",
+        "caption": "Bathroom. Photo supplied with the listing."
+      },
+      {
+        "src": "/media/individual/hamilton-homes-g503/entry.jpg",
+        "alt": "Apartment interior entry passage",
+        "caption": "Interior entry passage. Photo supplied with the listing."
+      },
+      {
+        "src": "/media/individual/hamilton-homes-g503/floor-plan.jpg",
+        "alt": "Supplied apartment floor-plan image showing living and dining areas, kitchen, two bedrooms, two toilets and a balcony",
+        "caption": "Floor-plan image supplied with the listing. Confirm that it applies to apartment G503."
+      }
+    ],
+    "video": "/media/individual/hamilton-homes-g503/walkthrough.mp4",
+    "poster": "/media/individual/hamilton-homes-g503/poster.jpg",
+    "videoDuration": 133.94,
+    "videoNote": "Walkthrough video supplied with the property listing.",
+    "url": "https://www.trustedproperties.net/individual-properties/hamilton-homes-g503/"
   }
 ]
